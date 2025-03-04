@@ -1,0 +1,6 @@
+2025-02-26 16:30:09 [main] DEBUG es.cursojava.Main - Debug Hello world!
+2025-02-26 16:30:09 [main] INFO  es.cursojava.Main - Info Hello world!
+2025-02-26 16:30:09 [main] WARN  es.cursojava.Main - Warn Hello world!
+2025-02-26 16:30:09 [main] ERROR es.cursojava.Main - Error Hello world!
+2025-02-26 16:30:57 [main] ERROR es.cursojava.Main - Error Hello world!
+2025-02-26 17:06:18 [main] ERROR es.cursojava.Main - Error Hello world!

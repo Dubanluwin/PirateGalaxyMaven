@@ -1,0 +1,7 @@
+## Ignorar todo por defecto
+
+
+## Excepciones: permitir src y bin
+
+
+## Ignorar todo dentro de src y bin, excepto sus contenidos
