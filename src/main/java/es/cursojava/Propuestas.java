@@ -1,11 +1,4 @@
-package com.pirategalaxy;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import com.pirategalaxy.clases.claseshijas.vehiculos.TanqueMantis;
-import com.pirategalaxy.clases.clasespadres.Guerrero;
-import com.pirategalaxy.clases.clasespadres.VehiculoGuerra;
+package es.cursojava;
 
 public class Propuestas {
     public static void main(String[] args) {

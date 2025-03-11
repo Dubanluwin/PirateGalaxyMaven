@@ -1,4 +1,4 @@
-package com.pirategalaxy.interfaz;
+package es.cursojava.interfaz;
 
 public interface Tripulable {
 

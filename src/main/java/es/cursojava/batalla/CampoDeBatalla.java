@@ -1,12 +1,10 @@
-package com.pirategalaxy.batalla;
+package es.cursojava.batalla;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import com.pirategalaxy.clases.claseshijas.guerreros.Mantis;
-import com.pirategalaxy.clases.claseshijas.vehiculos.NaveDepredadora;
-import com.pirategalaxy.clases.claseshijas.vehiculos.TanqueMantis;
-import com.pirategalaxy.clases.clasespadres.Guerrero;
+import es.cursojava.clases.clasespadres.Guerrero;
+
+
 
 public class CampoDeBatalla {
 

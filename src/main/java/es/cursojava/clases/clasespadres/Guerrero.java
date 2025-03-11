@@ -1,6 +1,6 @@
-package com.pirategalaxy.clases.clasespadres;
+package es.cursojava.clases.clasespadres;
 
-import com.pirategalaxy.excepciones.TooManyFuerzaResistencia;
+import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public abstract class Guerrero {
 

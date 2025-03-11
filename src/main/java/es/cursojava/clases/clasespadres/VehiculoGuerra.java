@@ -1,17 +1,17 @@
-package com.pirategalaxy.clases.clasespadres;
+package es.cursojava.clases.clasespadres;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.pirategalaxy.clases.claseshijas.guerreros.Depredador;
-import com.pirategalaxy.clases.claseshijas.guerreros.Mantis;
-import com.pirategalaxy.excepciones.TooManyAtaqueDefensa;
-import com.pirategalaxy.excepciones.TooManyGuerreros;
-import com.pirategalaxy.interfaz.Tripulable;
-import com.pirategalaxy.clases.claseshijas.vehiculos.NaveDepredadora;
-import com.pirategalaxy.clases.claseshijas.vehiculos.TanqueMantis;
+import es.cursojava.clases.claseshijas.guerreros.Depredador;
+import es.cursojava.clases.claseshijas.guerreros.Mantis;
+import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
+import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
+import es.cursojava.excepciones.TooManyAtaqueDefensa;
+import es.cursojava.excepciones.TooManyGuerreros;
+import es.cursojava.interfaz.Tripulable;
 
 public abstract class VehiculoGuerra implements Tripulable {
 

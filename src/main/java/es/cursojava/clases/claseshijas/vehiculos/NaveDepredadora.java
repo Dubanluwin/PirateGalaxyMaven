@@ -1,11 +1,11 @@
-package com.pirategalaxy.clases.claseshijas.vehiculos;
+package es.cursojava.clases.claseshijas.vehiculos;
 
 import java.util.List;
 import java.util.Map;
 
-import com.pirategalaxy.clases.clasespadres.Guerrero;
-import com.pirategalaxy.clases.clasespadres.VehiculoGuerra;
-import com.pirategalaxy.excepciones.TooManyAtaqueDefensa;
+import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.clases.clasespadres.VehiculoGuerra;
+import es.cursojava.excepciones.TooManyAtaqueDefensa;
 
 public class NaveDepredadora extends VehiculoGuerra {
 

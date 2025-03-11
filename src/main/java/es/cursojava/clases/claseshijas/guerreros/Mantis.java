@@ -1,7 +1,7 @@
-package com.pirategalaxy.clases.claseshijas.guerreros;
+package es.cursojava.clases.claseshijas.guerreros;
 
-import com.pirategalaxy.clases.clasespadres.Guerrero;
-import com.pirategalaxy.excepciones.TooManyFuerzaResistencia;
+import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Mantis extends Guerrero {
 

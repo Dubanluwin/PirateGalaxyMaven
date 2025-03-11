@@ -1,4 +1,4 @@
-package com.pirategalaxy.excepciones;
+package es.cursojava.excepciones;
 
 public class TooManyStats extends Exception {
 

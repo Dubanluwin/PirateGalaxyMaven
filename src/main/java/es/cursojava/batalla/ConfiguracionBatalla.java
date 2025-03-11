@@ -1,11 +1,11 @@
-package com.pirategalaxy.batalla;
+package es.cursojava.batalla;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import com.pirategalaxy.clases.claseshijas.guerreros.Depredador;
-import com.pirategalaxy.clases.claseshijas.guerreros.Mantis;
-import com.pirategalaxy.clases.clasespadres.Guerrero;
+import es.cursojava.clases.claseshijas.guerreros.Depredador;
+import es.cursojava.clases.claseshijas.guerreros.Mantis;
+import es.cursojava.clases.clasespadres.Guerrero;
 
 public class ConfiguracionBatalla {
 
@@ -43,7 +43,7 @@ public class ConfiguracionBatalla {
 
     
 
-    public static List<Guerrero> crearDepredadores(int numGuerreros) {
+    public static List<Guerrero> crearDepredadores(int numGuerreros) throws {
 
         List<Guerrero> listaDepredadores = new CopyOnWriteArrayList<>();
         System.out.println("Creando la tripulación de Depredadores...");
