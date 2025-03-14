@@ -70,6 +70,9 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     // Crear un mapa, donde 1 clave sera la nave depredadora con su lista de
     // depredadores, 1 clave sera el tanquis con su lista de guerreros.
+
+    // URGENTE
+    // Lanzar la excepcion de no añadir mas de 10 guerreros
     public void embarcar(Guerrero guerreros) {
         if (listaGuerreros.size() > 10) {
             logger.error("No se pueden embarcar más de 10 guerreros");

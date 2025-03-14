@@ -19,6 +19,7 @@ public class NaveDepredadora extends VehiculoGuerra {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);    
     }
 
+    // Controlar para que se ejecute al azar
     @Override
     public int atacar() {
         if (puntosVida <= 650) {
