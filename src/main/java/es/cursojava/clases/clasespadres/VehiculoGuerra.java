@@ -207,4 +207,9 @@ public abstract class VehiculoGuerra implements Tripulable {
         return 0;
     }
 
+    // Pendiente
+    public void embarcarGuerrero() {
+
+    }
+
 }
