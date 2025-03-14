@@ -5,12 +5,11 @@ import java.util.Map;
 
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
-import es.cursojava.excepciones.TooManyAtaqueDefensa;
 
 public class TanqueMantis extends VehiculoGuerra {
 
     public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) throws TooManyAtaqueDefensa {
+            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
     }
 
@@ -19,19 +18,23 @@ public class TanqueMantis extends VehiculoGuerra {
         if (puntosVida <= 500) {
             ataque += 10;
         }
+
         int ataqueTotal = (int) (ataque * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
             ataqueTotal += guerrero.getFuerza() * Math.random() * 0.5;
         }
+
         return ataqueTotal;
     }
 
     @Override
     public int defender(int ataqueRecibido) {
+
         int defensaTotal = (int) (defensa * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
             defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
         }
+        
         int daño = ataqueRecibido - defensaTotal;
         puntosVida -= Math.max(daño, 0);
         return Math.max(daño, 0);
@@ -80,7 +83,6 @@ public class TanqueMantis extends VehiculoGuerra {
     // }
 
     
-    // VIKTOR: añadimos el alcance con su fórmula.
     @Override
     public int alcance() {
         return (int) (Math.random() * 100);

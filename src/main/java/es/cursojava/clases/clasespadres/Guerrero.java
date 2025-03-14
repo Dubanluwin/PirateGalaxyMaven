@@ -3,7 +3,7 @@ package es.cursojava.clases.clasespadres;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public abstract class Guerrero {
-
+    
     protected String nombre;
     protected String tipo;
     protected int fuerza;
@@ -47,7 +47,7 @@ public abstract class Guerrero {
 
     // Cada guerrero aporta puntos extra de defensa al vehículo.
     public int apoyoDefensa() {
-        
+
         return resistencia;
     }
 

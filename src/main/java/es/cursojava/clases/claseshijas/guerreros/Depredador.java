@@ -1,17 +1,18 @@
 package es.cursojava.clases.claseshijas.guerreros;
 
 import es.cursojava.clases.clasespadres.Guerrero;
-import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Depredador extends Guerrero {
 
     private String planeta;
 
-    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta) throws TooManyFuerzaResistencia {
+    // Constructor
+    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta) {
         super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
 
+    // Getters y Setters
     public String getPlaneta() {
         return planeta;
     }
@@ -20,6 +21,7 @@ public class Depredador extends Guerrero {
         this.planeta = planeta;
     }
 
+    // toString
     @Override
     public String toString() {
 
@@ -29,16 +31,24 @@ public class Depredador extends Guerrero {
         return mensaje;
     }
 
+    // SUM (fuerza de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoAtaque() {
-        // TODO Auto-generated method stub
-        return super.apoyoAtaque();
+
+        double factorFuerzaDepredador = Math.random() * 0.5;
+        int sumaFuerzaDepredadot = this.fuerza;
+
+        return (int) (sumaFuerzaDepredadot * factorFuerzaDepredador);
     }
 
+    // SUM (Resistencia de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoDefensa() {
-        // TODO Auto-generated method stub
-        return super.apoyoDefensa();
+
+        double factorDefensaDepredador = Math.random() * 0.5;
+        int sumaResistenciaDepredador = this.resistencia;
+
+        return (int) (sumaResistenciaDepredador * factorDefensaDepredador);
     }
 
 }

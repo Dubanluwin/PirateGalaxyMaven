@@ -118,6 +118,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     // Ataque: ataque VehiculoGuerra*(random 0-1) + SUM (fuerza de todos los
     // guerreros) * (random 0-0.5)
+    
 
     // Defensa: defensa VehiculoGuerra*(random 0-1) + SUM (Resistencia de todos los
     // guerreros) * (random 0-0.5)

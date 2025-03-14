@@ -5,14 +5,12 @@ import java.util.Map;
 
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
-import es.cursojava.excepciones.TooManyAtaqueDefensa;
 
 public class NaveDepredadora extends VehiculoGuerra {
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) throws TooManyAtaqueDefensa {
-        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
-            
+            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
+        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);    
     }
 
     @Override
