@@ -15,12 +15,7 @@ public class TanqueMantis extends VehiculoGuerra {
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-<<<<<<< HEAD
             List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
-=======
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
-            throws TooManyAtaqueDefensa {
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
     }
 
@@ -93,11 +88,7 @@ public class TanqueMantis extends VehiculoGuerra {
     // return danhoRecibido;
     // }
 
-<<<<<<< HEAD
     
-=======
-    // VIKTOR: añadimos el alcance con su fórmula.
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     @Override
     public int alcance() {
         return (int) (Math.random() * 100);

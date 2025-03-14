@@ -12,13 +12,8 @@ public class Depredador extends Guerrero {
 
     private String planeta;
 
-<<<<<<< HEAD
     // Constructor
     public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta) {
-=======
-    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta)
-            throws TooManyFuerzaResistencia {
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
         super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
@@ -45,31 +40,21 @@ public class Depredador extends Guerrero {
     // SUM (fuerza de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoAtaque() {
-<<<<<<< HEAD
 
         double factorFuerzaDepredador = Math.random() * 0.5;
         int sumaFuerzaDepredadot = this.fuerza;
 
         return (int) (sumaFuerzaDepredadot * factorFuerzaDepredador);
-=======
-        // Crear el apoyo de ataque a las naves de los piratas
-        return super.apoyoAtaque();
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     }
 
     // SUM (Resistencia de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoDefensa() {
-<<<<<<< HEAD
 
         double factorDefensaDepredador = Math.random() * 0.5;
         int sumaResistenciaDepredador = this.resistencia;
 
         return (int) (sumaResistenciaDepredador * factorDefensaDepredador);
-=======
-        // Crear el apoyo de defensa las naves de los piratas
-        return super.apoyoDefensa();
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     }
 
 }

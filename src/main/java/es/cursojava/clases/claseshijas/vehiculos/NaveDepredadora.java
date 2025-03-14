@@ -15,15 +15,8 @@ public class NaveDepredadora extends VehiculoGuerra {
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-<<<<<<< HEAD
             List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);    
-=======
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
-            throws TooManyAtaqueDefensa {
-        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
-
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     }
 
     @Override
@@ -49,6 +42,24 @@ public class NaveDepredadora extends VehiculoGuerra {
         puntosVida -= Math.max(daño, 0);
         return Math.max(daño, 0);
     }
+
+    // Método defender con ternario.
+    // @Override
+    // public int defender(int ataqueRecibido) {
+    //     int defensaTotal = (int) (defensa * Math.random());
+        
+    //     for (Guerrero guerrero : listaGuerreros) {
+    //         defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
+    //     }
+        
+    //     int daño = ataqueRecibido - defensaTotal;
+        
+    //     if (daño > 0) { // Solo restar si el daño es positivo
+    //         puntosVida -= daño;
+    //     }
+        
+    //     return (daño > 0) ? daño : 0;
+    // }
 
     // @Override
     // public int atacar() {

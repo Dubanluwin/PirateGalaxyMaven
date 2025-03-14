@@ -27,22 +27,7 @@ public class Mantis extends Guerrero {
         this.planeta = planeta;
     }
 
-<<<<<<< HEAD
     // toString
-=======
-    @Override
-    public int apoyoAtaque() {
-        // Crear el apoyo de ataque a las naves de las mantis
-        return super.apoyoAtaque();
-    }
-
-    @Override
-    public int apoyoDefensa() {
-        // Crear la defensa de ataque a las naves de las mantis
-        return super.apoyoDefensa();
-    }
-
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     @Override
     public String toString() {
 

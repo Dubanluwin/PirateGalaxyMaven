@@ -7,13 +7,7 @@ import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public abstract class Guerrero {
-<<<<<<< HEAD
-    
-=======
-
-    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
-
->>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
+    private static final Logger logger = LoggerFactory.getLogger(Guerrero.class);    
     protected String nombre;
     protected String tipo;
     protected int fuerza;

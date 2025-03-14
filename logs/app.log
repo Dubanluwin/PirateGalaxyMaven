@@ -24,3 +24,8 @@
  Defensa = 5
  Ataque = 5
 2025-03-14 17:30:05 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
+2025-03-14 18:08:57 [main] INFO  e.c.clases.clasespadres.Guerrero - 
+	 Reestableciendo valores por defecto a ...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 18:08:57 [main] ERROR e.c.clases.clasespadres.Guerrero - Error al crear el Guerrero: Los valores de ataque y defensa no son validos para este combate.
