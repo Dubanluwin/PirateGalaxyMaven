@@ -34,3 +34,9 @@
  Defensa = 5
  Ataque = 5
 2025-03-14 19:18:29 [main] ERROR e.c.clases.clasespadres.Guerrero - Error al crear el Guerrero: Los valores de ataque y defensa no son validos para este combate.
+2025-03-14 20:40:57 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-14 20:40:57 [main] INFO  e.c.clases.clasespadres.Guerrero - 
+	 Reestableciendo valores por defecto a ...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 20:40:57 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...

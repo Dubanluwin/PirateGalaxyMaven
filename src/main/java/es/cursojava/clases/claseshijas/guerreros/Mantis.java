@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Mantis extends Guerrero {
 
@@ -13,7 +14,8 @@ public class Mantis extends Guerrero {
     private String planeta;
 
     // Constructor
-    public Mantis(String nombre, String tipo, int fuerza, int resistencia, String planeta) {
+    public Mantis(String nombre, String tipo, int fuerza, int resistencia, String planeta)
+            throws TooManyFuerzaResistencia {
         super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
@@ -56,6 +58,5 @@ public class Mantis extends Guerrero {
 
         return (int) (sumaResistenciaMantis * factorDefensaMantis);
     }
-
 
 }

@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Depredador extends Guerrero {
 
@@ -12,13 +13,12 @@ public class Depredador extends Guerrero {
 
     private String planeta;
 
-    // Constructor
-    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta) {
+    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta)
+            throws TooManyFuerzaResistencia {
         super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
 
-    // Getters y Setters
     public String getPlaneta() {
         return planeta;
     }
@@ -27,7 +27,6 @@ public class Depredador extends Guerrero {
         this.planeta = planeta;
     }
 
-    // toString
     @Override
     public String toString() {
 
@@ -37,17 +36,15 @@ public class Depredador extends Guerrero {
         return mensaje;
     }
 
-    // SUM (fuerza de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoAtaque() {
 
         double factorFuerzaDepredador = Math.random() * 0.5;
-        int sumaFuerzaDepredadot = this.fuerza;
+        int sumaFuerzaDepredador = this.fuerza;
 
-        return (int) (sumaFuerzaDepredadot * factorFuerzaDepredador);
+        return (int) (sumaFuerzaDepredador * factorFuerzaDepredador);
     }
 
-    // SUM (Resistencia de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoDefensa() {
 
