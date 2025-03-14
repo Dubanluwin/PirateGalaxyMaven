@@ -8,16 +8,20 @@ public abstract class Guerrero {
     protected String tipo;
     protected int fuerza;
     protected int resistencia;
-
-    // Añadir excepción  La suma de la fuerza y la resistencia de un guerrero no
-    // puede ser mayor de 10
     
-    public Guerrero(String nombre, String tipo, int fuerza, int resistencia) throws TooManyFuerzaResistencia {
-        controlarFuerzaResistencia(fuerza, resistencia);
+    // Constructor
+    public Guerrero(String nombre, String tipo, int fuerza, int resistencia) {
+        try {
+            controlarFuerzaResistencia(fuerza, resistencia);
+        } catch (TooManyFuerzaResistencia e) {
+            System.err.println("Error al crear el Guerrero: " + e.getMessage());
+        }
         this.nombre = nombre;
         this.tipo = tipo;
     }
-
+    
+    // Método paracontrolar la Fuerza y Resistencia de los Guerreos para que no exceda de un total de 10 p.
+    // Este método lo llamaremos desde el constructor.
     private void controlarFuerzaResistencia(int fuerza, int resistencia) throws TooManyFuerzaResistencia {
         if (fuerza + resistencia > 10 || fuerza < 0 || resistencia < 0) {
             this.fuerza = 5;
@@ -25,7 +29,7 @@ public abstract class Guerrero {
             System.out.println("\n Reestableciendo valores por defecto..." +
                     "\n Defensa = " + this.resistencia +
                     "\n Ataque = " + this.fuerza);
-
+            
             // Lanzamos la excepción después de restablecer los valores por defecto
             throw new TooManyFuerzaResistencia("Los valores de ataque y defensa no son válidos para este combate.");
             
@@ -36,7 +40,6 @@ public abstract class Guerrero {
     }
 
     // Cada guerrero aporta puntos extra de ataque al vehículo.
-
     public int apoyoAtaque() {
 
         return fuerza;
@@ -44,10 +47,11 @@ public abstract class Guerrero {
 
     // Cada guerrero aporta puntos extra de defensa al vehículo.
     public int apoyoDefensa() {
-
+        
         return resistencia;
     }
 
+    // Getters y Setters
     public String getNombre() {
         return nombre;
     }

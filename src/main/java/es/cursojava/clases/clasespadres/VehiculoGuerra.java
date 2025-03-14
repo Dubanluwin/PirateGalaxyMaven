@@ -24,10 +24,15 @@ public abstract class VehiculoGuerra implements Tripulable {
     // protected Map<String, List<Guerrero>> mapaVehiculoGuerra = new HashMap<>();
     protected Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra = new HashMap<>();
 
+    // Constructor
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) throws TooManyAtaqueDefensa {
-
-        controlarAtaqueDefensa(ataque, defensa);
+            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
+        try {
+            controlarAtaqueDefensa(ataque, defensa);
+        } catch (TooManyAtaqueDefensa e) {
+            System.err.println("Error al crear el Vehículo de Guerra: " + e.getMessage());
+        }
+        
         this.puntosVida = puntosVida;
         this.nombre = nombre;
         this.tipo = tipo;
@@ -35,6 +40,8 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.mapaVehiculoGuerra = mapaVehiculoGuerra;
     }
 
+    // Método para controlar el Ataque y la Defensa del VehiculoGuerra para que el total no exceda de 10 p.
+    // Este método lo llamaremos desde el constructor.
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
         // (ataque + defensa <= 10 ) - Método para crear la excepción de que la suma y
         // el ataque no sea mayor de 10.
@@ -67,38 +74,38 @@ public abstract class VehiculoGuerra implements Tripulable {
     }
 
     // ============================== CAMBIOS VIKTOR ============================== //
-    // public void crearVehiculoGuerra() {
-    //     mapaVehiculoGuerra.put("TanqueMantis", listaGuerreros);
-    //     mapaVehiculoGuerra.put("NaveDepredadora", listaGuerreros);
-    // }
-
     public void crearVehiculoGuerra() {
         mapaVehiculoGuerra.put(TanqueMantis.class, new ArrayList<Guerrero>());
         mapaVehiculoGuerra.put(NaveDepredadora.class, new ArrayList<Guerrero>());
     }
 
-    public void embarcarGuerrero(VehiculoGuerra tipo, Guerrero guerrero) throws TooManyGuerreros {
-        List<Guerrero> listaGuerreros = mapaVehiculoGuerra.get(tipo.getClass());
-        int maxGuerreros = 10;
-
-        if (listaGuerreros == null) {
-            throw new IllegalArgumentException("El tipo de nave no es válido");
+    public void embarcarGuerrero(VehiculoGuerra tipo, Guerrero guerrero) {
+        try {
+            List<Guerrero> listaGuerreros = mapaVehiculoGuerra.get(tipo.getClass());
+            int maxGuerreros = 10;
+    
+            if (listaGuerreros == null) {
+                throw new IllegalArgumentException("El tipo de nave no es válido");
+            }
+    
+            if (tipo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque");
+            }
+    
+            if (tipo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora");
+            }
+    
+            if (listaGuerreros.size() == maxGuerreros) {
+                throw new TooManyGuerreros("No se pueden embarcar más de " + maxGuerreros + " guerreros en la nave " + tipo);
+            }
+    
+            listaGuerreros.add(guerrero);
+            System.out.println("Guerrero embarcado en " + tipo);
+            
+        } catch (IllegalArgumentException | TooManyGuerreros e) {
+            System.err.println("Error al embarcar guerrero: " + e.getMessage());
         }
-
-        if (tipo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
-            throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque");
-        }
-
-        if (tipo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
-            throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en un Nave Depredadora");
-        }
-
-        if (listaGuerreros.size() == maxGuerreros) {
-            throw new TooManyGuerreros("No se pueden embarcar más de " + maxGuerreros + " guerreros en la nave " + tipo);
-        }
-
-        listaGuerreros.add(guerrero);
-        System.out.println("Guerrero embarcado en " + tipo);
     }
 
     public void mostrarGuerreros() {
@@ -121,6 +128,7 @@ public abstract class VehiculoGuerra implements Tripulable {
                 + nombre + ", tipo=" + tipo + ", listaGuerreros=" + listaGuerreros + "]";
     }
 
+    // Getters y Setters
     public int getPuntosVida() {
         return puntosVida;
     }
