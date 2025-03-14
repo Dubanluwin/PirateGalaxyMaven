@@ -3,13 +3,24 @@ package es.cursojava.clases.claseshijas.vehiculos;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 
 public class TanqueMantis extends VehiculoGuerra {
 
+    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
+
     public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo,
+<<<<<<< HEAD
             List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) {
+=======
+            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
+            throws TooManyAtaqueDefensa {
+>>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
     }
 
@@ -82,7 +93,11 @@ public class TanqueMantis extends VehiculoGuerra {
     // return danhoRecibido;
     // }
 
+<<<<<<< HEAD
     
+=======
+    // VIKTOR: añadimos el alcance con su fórmula.
+>>>>>>> a22949173c8e0e8cd60e264ee9ca4aee4aa3dfea
     @Override
     public int alcance() {
         return (int) (Math.random() * 100);
@@ -95,10 +110,11 @@ public class TanqueMantis extends VehiculoGuerra {
 
     @Override
     public void embarcar(Guerrero guerrero) {
+        super.embarcar(guerrero);
         if (!guerrero.getTipo().equalsIgnoreCase("Mantis")) {
             throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en la Tanque.");
         }
-        super.embarcar(guerrero);
+
     }
 
 }

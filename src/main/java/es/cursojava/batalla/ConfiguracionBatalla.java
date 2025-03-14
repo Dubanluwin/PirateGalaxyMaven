@@ -3,12 +3,17 @@ package es.cursojava.batalla;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import es.cursojava.clases.claseshijas.guerreros.Depredador;
 import es.cursojava.clases.claseshijas.guerreros.Mantis;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class ConfiguracionBatalla {
+
+    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     public static List<Guerrero> crearMantis(int numGuerreros) {
 

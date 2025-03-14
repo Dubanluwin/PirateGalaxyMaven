@@ -1,1 +1,26 @@
 
+2025-03-14 17:23:32 [main] INFO  es.cursojava.batalla.CampoDeBatalla - 
+ Reestableciendo valores por defecto...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 17:23:32 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
+2025-03-14 17:23:36 [main] INFO  es.cursojava.batalla.CampoDeBatalla - 
+ Reestableciendo valores por defecto...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 17:23:36 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
+2025-03-14 17:28:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - 
+	 Reestableciendo valores por defecto a ...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 17:28:02 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
+2025-03-14 17:29:47 [main] INFO  es.cursojava.batalla.CampoDeBatalla - 
+	 Reestableciendo valores por defecto a ...null.
+ Defensa = 5
+ Ataque = 5
+2025-03-14 17:29:47 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
+2025-03-14 17:30:05 [main] INFO  es.cursojava.batalla.CampoDeBatalla - 
+	 Reestableciendo valores por defecto a ...
+ Defensa = 5
+ Ataque = 5
+2025-03-14 17:30:05 [main] ERROR es.cursojava.batalla.CampoDeBatalla - Error al crear el Guerrero: Los valores de ataque y defensa no son válidos para este combate.
