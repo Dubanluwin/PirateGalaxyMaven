@@ -1,13 +1,20 @@
 package es.cursojava.clases.claseshijas.guerreros;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Depredador extends Guerrero {
 
+    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
+
     private String planeta;
 
-    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta) throws TooManyFuerzaResistencia {
+    public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta)
+            throws TooManyFuerzaResistencia {
         super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
@@ -31,13 +38,13 @@ public class Depredador extends Guerrero {
 
     @Override
     public int apoyoAtaque() {
-        // TODO Auto-generated method stub
+        // Crear el apoyo de ataque a las naves de los piratas
         return super.apoyoAtaque();
     }
 
     @Override
     public int apoyoDefensa() {
-        // TODO Auto-generated method stub
+        // Crear el apoyo de defensa las naves de los piratas
         return super.apoyoDefensa();
     }
 

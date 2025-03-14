@@ -1,9 +1,15 @@
 package es.cursojava.clases.claseshijas.guerreros;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Mantis extends Guerrero {
+
+    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     private String planeta;
 
@@ -22,13 +28,13 @@ public class Mantis extends Guerrero {
 
     @Override
     public int apoyoAtaque() {
-        // TODO Auto-generated method stub
+        // Crear el apoyo de ataque a las naves de las mantis
         return super.apoyoAtaque();
     }
 
     @Override
     public int apoyoDefensa() {
-        // TODO Auto-generated method stub
+        // Crear la defensa de ataque a las naves de las mantis
         return super.apoyoDefensa();
     }
 

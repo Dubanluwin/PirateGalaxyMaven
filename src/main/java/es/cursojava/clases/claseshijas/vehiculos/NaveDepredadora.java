@@ -3,16 +3,23 @@ package es.cursojava.clases.claseshijas.vehiculos;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 
 public class NaveDepredadora extends VehiculoGuerra {
+    
+    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra) throws TooManyAtaqueDefensa {
+            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
+            throws TooManyAtaqueDefensa {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
-            
+
     }
 
     @Override
@@ -32,13 +39,12 @@ public class NaveDepredadora extends VehiculoGuerra {
     public int defender(int ataqueRecibido) {
         int defensaTotal = (int) (defensa * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
-        defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
+            defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
         }
         int daño = ataqueRecibido - defensaTotal;
         puntosVida -= Math.max(daño, 0);
         return Math.max(daño, 0);
     }
-
 
     // @Override
     // public int atacar() {
@@ -85,8 +91,10 @@ public class NaveDepredadora extends VehiculoGuerra {
 
     @Override
     public void embarcar(Guerrero guerrero) {
+
         if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
-            throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
+            throw new IllegalArgumentException(
+                    "Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
         }
         super.embarcar(guerrero);
     }
