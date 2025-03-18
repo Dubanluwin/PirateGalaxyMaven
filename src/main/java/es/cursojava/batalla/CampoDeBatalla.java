@@ -18,7 +18,7 @@ public class CampoDeBatalla {
 
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
-    public static void main(String[] args) throws TooManyFuerzaResistencia {
+    public static void main(String[] args) {
 
         try {
             List<Guerrero> mantis = ConfiguracionBatalla.crearMantis(10);

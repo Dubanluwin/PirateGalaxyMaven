@@ -38,16 +38,21 @@ public class NaveDepredadora extends VehiculoGuerra {
     }
 
     // Controlar para que se ejecute al azar
+    // VIKTOR: Hecho.
     @Override
     public int atacar() {
-        if (puntosVida <= 650) {
+        double probabilidad = Math.random();
+
+        if (puntosVida <= 650 && probabilidad < 0.5) {
             ataque -= 2;
             defensa += 4;
         }
+
         int ataqueTotal = (int) (ataque * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
             ataqueTotal += guerrero.apoyoAtaque();
         }
+
         return ataqueTotal;
     }
 

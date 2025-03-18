@@ -23,9 +23,12 @@ public class TanqueMantis extends VehiculoGuerra {
     }
 
     // Controlar para que se ejecute al azar
+    // VIKTOR: Hecho.
     @Override
     public int atacar() {
-        if (puntosVida <= 500) {
+        double probabilidad = Math.random();
+
+        if (puntosVida <= 500 && probabilidad < 0.5) {
             ataque += 10;
         }
 
