@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import es.cursojava.clases.claseshijas.guerreros.Depredador;
 import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
+import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
@@ -27,14 +28,12 @@ public class CampoDeBatalla {
             List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores(10);
             System.out.println(depredadores);
 
-            Map<Class<?>, List<Guerrero>> nave = new HashMap<>();
-            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador", depredadores,
-                    nave);
-        } catch (TooManyAtaqueDefensa | TooManyFuerzaResistencia e) {
+            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador", depredadores);
 
+            TanqueMantis tanqueMantis = new TanqueMantis(1000, 5, 5, "Aniquiladora", "Mantis", mantis);
+
+        } catch (TooManyAtaqueDefensa e) {
             e.printStackTrace();
         }
-
     }
-
 }

@@ -17,9 +17,9 @@ public class NaveDepredadora extends VehiculoGuerra {
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
+            List<Guerrero> listaGuerreros)
             throws TooManyAtaqueDefensa {
-        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros, mapaVehiculoGuerra);
+        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
     }
 
     @Override

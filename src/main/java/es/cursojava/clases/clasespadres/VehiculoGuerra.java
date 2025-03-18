@@ -26,10 +26,9 @@ public abstract class VehiculoGuerra implements Tripulable {
     protected String nombre;
     protected String tipo;
     protected List<Guerrero> listaGuerreros = new ArrayList<>();
-    protected Map<VehiculoGuerra, List<Guerrero>> mapaVehiculoGuerra = new HashMap<>();
 
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros, Map<Class<?>, List<Guerrero>> mapaVehiculoGuerra)
+            List<Guerrero> listaGuerreros)
             throws TooManyAtaqueDefensa {
 
         controlarAtaqueDefensa(ataque, defensa);
@@ -38,7 +37,6 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.nombre = nombre;
         this.tipo = tipo;
         this.listaGuerreros = listaGuerreros;
-        this.mapaVehiculoGuerra = mapaVehiculoGuerra;
     }
 
     public int getPuntosVida() {
@@ -136,21 +134,20 @@ public abstract class VehiculoGuerra implements Tripulable {
     // mapaVehiculoGuerra.put(NaveDepredadora.class, new ArrayList<Guerrero>());
     // }
 
-    public void embarcarGuerrero(VehiculoGuerra tipo, Guerrero guerrero)
+    public void embarcarGuerrero(VehiculoGuerra vehiculo, Guerrero guerrero)
             throws IllegalArgumentException, TooManyGuerreros {
 
-        List<Guerrero> listaGuerreros = mapaVehiculoGuerra.get(tipo.getClass());
         int maxGuerreros = 10;
 
         if (listaGuerreros == null) {
             throw new IllegalArgumentException("El tipo de nave no es válido");
         }
 
-        if (tipo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
+        if (vehiculo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
             throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque");
         }
 
-        if (tipo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
+        if (vehiculo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
             throw new IllegalArgumentException(
                     "Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora");
         }
@@ -164,10 +161,12 @@ public abstract class VehiculoGuerra implements Tripulable {
         logger.info("Guerrero embarcado en " + tipo);
     }
 
-    public void mostrarGuerreros() {
-        for (Class<?> tipo : mapaVehiculoGuerra.keySet()) {
-            List<Guerrero> listaGuerreros = mapaVehiculoGuerra.get(tipo);
-            logger.info("Vehículo: " + tipo + " - Guerreros: " + listaGuerreros.size());
+    public void mostrarGuerreros(List<Guerrero> guerrero) {
+
+        for (Guerrero guerrerox : guerrero) {
+            logger.info("Los guerreos son de tipo: " + guerrerox.getTipo() + " y su valores de fuerza: "
+                    + guerrerox.getFuerza() + guerrerox.getResistencia());
         }
+
     }
 }
