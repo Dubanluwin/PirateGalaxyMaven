@@ -22,7 +22,7 @@ public class NaveDepredadora extends VehiculoGuerra {
     }
 
     @Override
-    public void embarcarGuerrero(VehiculoGuerra naveDepredadora, Guerrero guerrero) throws TooManyGuerreros {
+    public  void embarcarGuerrero(VehiculoGuerra naveDepredadora, Guerrero guerrero) throws TooManyGuerreros {
 
         if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
             throw new IllegalArgumentException(

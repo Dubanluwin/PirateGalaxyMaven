@@ -22,11 +22,16 @@ public class CampoDeBatalla {
 
             NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador", depredadores);
             TanqueMantis tanqueMantis = new TanqueMantis(1000, 5, 5, "Aniquiladora", "Mantis", mantis);
-
+            
+            naveDepredadora.embarcarGuerrero(naveDepredadora, depredadores);
+            tanqueMantis.embarcarGuerrero(tanqueMantis, mantis);
+            
             iniciarBatalla(naveDepredadora, tanqueMantis);
 
-        } catch (TooManyAtaqueDefensa e) {
+        } catch (TooManyAtaqueDefensa e){
             logger.error("Error al crear los vehículos de guerra: " + e.getMessage());
+        } catch (TooManyGuerreros e ) {
+            logger.error("La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.");
         }
     }
 
