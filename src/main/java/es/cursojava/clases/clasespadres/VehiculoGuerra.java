@@ -1,9 +1,7 @@
 package es.cursojava.clases.clasespadres;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,6 +35,7 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.nombre = nombre;
         this.tipo = tipo;
         this.listaGuerreros = listaGuerreros;
+        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new ArrayList<>();
     }
 
     public int getPuntosVida() {
@@ -77,6 +76,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     public void setListaGuerreros(List<Guerrero> listaGuerreros) {
         this.listaGuerreros = listaGuerreros;
+        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new ArrayList<>();
     }
 
     public String getTipo() {
@@ -110,8 +110,12 @@ public abstract class VehiculoGuerra implements Tripulable {
     }
 
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
+        
+        if (ataque < 0 || defensa < 0) {
+            throw new TooManyAtaqueDefensa("Los valores de ataque y defensa no pueden ser negativos.");
+        }
 
-        if (ataque + defensa > 10 || ataque < 0 || defensa < 0) {
+        if (ataque + defensa > 10) {
             this.ataque = 5;
             this.defensa = 5;
             logger.info("\n Reestableciendo valores por defecto..." +
@@ -119,46 +123,33 @@ public abstract class VehiculoGuerra implements Tripulable {
                     "\n Ataque = " + this.ataque);
 
             throw new TooManyAtaqueDefensa("Los valores de ataque y defensa no son válidos para este combate.");
-
-        } else {
-            this.ataque = ataque;
-            this.defensa = defensa;
         }
+
+        this.ataque = ataque;
+        this.defensa = defensa;
     }
 
-    // POR CORREGIR--------------------
-    // public void crearVehiculoGuerra(TanqueMantis tanqueMantis, NaveDepredadora
-    // naveDepredadora,
-    // List<Guerrero> listaGuerreros) {
-    // mapaVehiculoGuerra.put(TanqueMantis.class, new ArrayList<Guerrero>());
-    // mapaVehiculoGuerra.put(NaveDepredadora.class, new ArrayList<Guerrero>());
-    // }
+    public void embarcarGuerrero(VehiculoGuerra vehiculo, Guerrero guerrero) throws IllegalArgumentException, TooManyGuerreros {
+        final int MAX_GUERREROS = 10;
 
-    public void embarcarGuerrero(VehiculoGuerra vehiculo, Guerrero guerrero)
-            throws IllegalArgumentException, TooManyGuerreros {
-
-        int maxGuerreros = 10;
-
-        if (listaGuerreros == null) {
-            throw new IllegalArgumentException("El tipo de nave no es válido");
+        if (vehiculo == null || guerrero == null) {
+            throw new IllegalArgumentException("El vehículo o guerrero no pueden ser nulos.");
         }
 
         if (vehiculo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
-            throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque");
+            throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque Mantis.");
         }
 
         if (vehiculo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
-            throw new IllegalArgumentException(
-                    "Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora");
+            throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora.");
         }
 
-        if (listaGuerreros.size() == maxGuerreros || listaGuerreros.size() > maxGuerreros) {
-            throw new TooManyGuerreros(
-                    "No se pueden embarcar más de " + maxGuerreros + " guerreros en la nave " + tipo);
+        if (listaGuerreros.size() >= MAX_GUERREROS) {
+            throw new TooManyGuerreros("No se pueden embarcar más de " + MAX_GUERREROS + " guerreros en la nave " + tipo);
         }
 
         listaGuerreros.add(guerrero);
-        logger.info("Guerrero embarcado en " + tipo);
+        logger.info("Guerrero de tipo" + guerrero.getTipo() + "embarcado en {}" + tipo);
     }
 
     public void mostrarGuerreros(List<Guerrero> guerrero) {

@@ -3,19 +3,18 @@ package es.cursojava.clases.claseshijas.guerreros;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Depredador extends Guerrero {
 
-    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
+    private static final Logger logger = LoggerFactory.getLogger(Depredador.class);
 
     private String planeta;
 
     public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta)
             throws TooManyFuerzaResistencia {
-        super(nombre, tipo, fuerza, resistencia);
+        super(nombre, "Depredador", fuerza, resistencia);
         this.planeta = planeta;
     }
 

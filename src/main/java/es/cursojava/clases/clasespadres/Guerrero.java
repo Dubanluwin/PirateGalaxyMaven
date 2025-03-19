@@ -3,7 +3,6 @@ package es.cursojava.clases.clasespadres;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public abstract class Guerrero {
@@ -25,18 +24,21 @@ public abstract class Guerrero {
 
     private void controlarFuerzaResistencia(int fuerza, int resistencia) throws TooManyFuerzaResistencia {
 
-        if (fuerza + resistencia > 10 || fuerza < 0 || resistencia < 0) {
+        if (fuerza < 0 || resistencia < 0) {
+            throw new TooManyFuerzaResistencia("Los valores de fuerza y resistencia no pueden ser negativos.");
+        }
+
+        if (fuerza + resistencia > 10) {
             this.fuerza = 5;
             this.resistencia = 5;
             logger.info("\n\t Reestableciendo valores por defecto a ..." +
                     "\n Defensa = " + this.resistencia +
                     "\n Ataque = " + this.fuerza);
             throw new TooManyFuerzaResistencia("Los valores de ataque y defensa no son validos para este combate.");
-
-        } else {
-            this.fuerza = fuerza;
-            this.resistencia = resistencia;
         }
+
+        this.fuerza = fuerza;
+        this.resistencia = resistencia;
     }
 
     public int apoyoAtaque() {

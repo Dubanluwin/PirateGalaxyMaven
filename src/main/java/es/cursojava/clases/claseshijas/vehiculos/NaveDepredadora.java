@@ -1,12 +1,10 @@
 package es.cursojava.clases.claseshijas.vehiculos;
 
 import java.util.List;
-import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
@@ -14,7 +12,8 @@ import es.cursojava.excepciones.TooManyGuerreros;
 
 public class NaveDepredadora extends VehiculoGuerra {
 
-    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
+    private static final Logger logger = LoggerFactory.getLogger(NaveDepredadora.class);
+    private boolean estadisticasModificadas = false;
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
             List<Guerrero> listaGuerreros)
@@ -37,15 +36,16 @@ public class NaveDepredadora extends VehiculoGuerra {
         return super.alcance();
     }
 
-    // Controlar para que se ejecute al azar
-    // VIKTOR: Hecho.
     @Override
     public int atacar() {
         double probabilidad = Math.random();
 
-        if (puntosVida <= 650 && probabilidad < 0.5) {
+        // Solo modificamos las estadísticas una vez
+        if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
             ataque -= 2;
             defensa += 4;
+            estadisticasModificadas = true; 
+            // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se modifica una vez por batalla.
         }
 
         int ataqueTotal = (int) (ataque * Math.random());
@@ -62,8 +62,12 @@ public class NaveDepredadora extends VehiculoGuerra {
         for (Guerrero guerrero : listaGuerreros) {
             defensaTotal += guerrero.apoyoDefensa();
         }
+
         int daño = ataqueRecibido - defensaTotal;
-        puntosVida -= Math.max(daño, 0);
+        if (daño > 0) {
+            puntosVida -= daño;
+        }
+
         return Math.max(daño, 0);
     }
 

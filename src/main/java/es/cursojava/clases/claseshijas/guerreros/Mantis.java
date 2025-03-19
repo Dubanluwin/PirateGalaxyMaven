@@ -3,20 +3,19 @@ package es.cursojava.clases.claseshijas.guerreros;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.batalla.CampoDeBatalla;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
 public class Mantis extends Guerrero {
 
-    private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
+    private static final Logger logger = LoggerFactory.getLogger(Mantis.class);
 
     private String planeta;
 
     // Constructor
     public Mantis(String nombre, String tipo, int fuerza, int resistencia, String planeta)
             throws TooManyFuerzaResistencia {
-        super(nombre, tipo, fuerza, resistencia);
+        super(nombre, "Mantis", fuerza, resistencia);
         this.planeta = planeta;
     }
 
@@ -39,7 +38,6 @@ public class Mantis extends Guerrero {
         return mensaje;
     }
 
-    // SUM (fuerza de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoAtaque() {
 
@@ -49,7 +47,6 @@ public class Mantis extends Guerrero {
         return (int) (sumaFuerzaMantis * factorFuerzaMantis);
     }
 
-    // SUM (Resistencia de todos los guerreros) * (random 0-0.5)
     @Override
     public int apoyoDefensa() {
 
