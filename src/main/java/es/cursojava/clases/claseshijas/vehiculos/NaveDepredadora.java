@@ -31,8 +31,8 @@ public class NaveDepredadora extends VehiculoGuerra {
             if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
                 throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
             }
-            super.embarcarGuerrero(naveDepredadora, guerreros);
         }
+        super.embarcarGuerrero(naveDepredadora, guerreros);
     }
 
     @Override

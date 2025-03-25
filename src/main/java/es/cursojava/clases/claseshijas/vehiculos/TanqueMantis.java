@@ -69,12 +69,12 @@ public class TanqueMantis extends VehiculoGuerra {
 
     @Override
     public void embarcarGuerrero(VehiculoGuerra tanqueMantis, List<Guerrero> guerreros) throws TooManyGuerreros {
-    for (Guerrero guerrero : guerreros) {
-        if (!guerrero.getTipo().equalsIgnoreCase("Mantis")) {
-            throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en el Tanque.");
+        for (Guerrero guerrero : guerreros) {
+            if (!guerrero.getTipo().equalsIgnoreCase("Mantis")) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en el Tanque.");
+            }
         }
         super.embarcarGuerrero(tanqueMantis, guerreros);
     }
-}
 
 }

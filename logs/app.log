@@ -16093,3 +16093,518 @@
 2025-03-25 16:26:28 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 21 de danio. | Mutiladora recibe 15 de danio.
 2025-03-25 16:26:28 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido destruido. | Aniquiladora gana la batalla!
 2025-03-25 16:26:28 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-03-25 16:39:56 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:39:56 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:39:56 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:39:56 [main] ERROR es.cursojava.batalla.CampoDeBatalla - La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.
+2025-03-25 16:50:01 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:50:01 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:50:01 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:01 [main] ERROR es.cursojava.batalla.CampoDeBatalla - La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora después de embarcar: 10
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis después de embarcar: 10
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - ¡Comienza la batalla entre Mutiladora y Aniquiladora!
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 13 de danio. | Aniquiladora recibe 5 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 16 de danio. | Mutiladora recibe 9 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 10 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | Mutiladora recibe 0 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 4 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | Mutiladora recibe 0 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 9 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 13 de danio. | Mutiladora recibe 1 de danio.
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido destruido. | Aniquiladora gana la batalla!
+2025-03-25 16:50:24 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora después de embarcar: 10
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis después de embarcar: 10
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - ¡Comienza la batalla entre Mutiladora y Aniquiladora!
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 5 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | Mutiladora recibe 3 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 8 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | Mutiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 8 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | Mutiladora recibe 2 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 7 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 18 de danio. | Mutiladora recibe 4 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 6 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 22 de danio. | Mutiladora recibe 9 de danio.
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido destruido. | Aniquiladora gana la batalla!
+2025-03-25 16:52:14 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-03-25 16:52:39 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:52:39 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:52:39 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:52:39 [main] ERROR es.cursojava.batalla.CampoDeBatalla - La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Mantis...
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulación de Depredadores...
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora después de embarcar: 10
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis después de embarcar: 10
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - ¡Comienza la batalla entre Mutiladora y Aniquiladora!
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 10 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 20 de danio. | Mutiladora recibe 9 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 13 de danio. | Aniquiladora recibe 1 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | Mutiladora recibe 0 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 12 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 13 de danio. | Mutiladora recibe 0 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 5 de danio. | Aniquiladora recibe 0 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 20 de danio. | Mutiladora recibe 4 de danio.
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido destruido. | Aniquiladora gana la batalla!
+2025-03-25 16:55:08 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!

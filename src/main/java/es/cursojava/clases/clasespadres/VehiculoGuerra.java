@@ -6,6 +6,10 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.cursojava.clases.claseshijas.guerreros.Depredador;
+import es.cursojava.clases.claseshijas.guerreros.Mantis;
+import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
+import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
 import es.cursojava.interfaz.Tripulable;
@@ -135,58 +139,30 @@ public abstract class VehiculoGuerra implements Tripulable {
     }
 
 
-    // public void embarcarGuerrero(VehiculoGuerra vehiculo, List<Guerrero> guerreros) throws IllegalArgumentException, TooManyGuerreros {
-    //     final int MAX_GUERREROS = 10;
-    
-    //     if (vehiculo == null || guerreros == null) {
-    //         throw new IllegalArgumentException("El vehículo o la lista de guerreros no pueden ser nulos.");
-    //     }
-    
-    //     for (Guerrero guerrero : guerreros) {
-    //         if (vehiculo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
-    //             throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque Mantis.");
-    //         }
-    
-    //         if (vehiculo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
-    //             throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora.");
-    //         }
-    
-    //         if (listaGuerreros.size() >= MAX_GUERREROS) {
-    //             throw new TooManyGuerreros("No se pueden embarcar más de " + MAX_GUERREROS + " guerreros en la nave.");
-    //         }
-    
-    //         listaGuerreros.add(guerrero);
-    //         logger.info("Guerrero de tipo " + guerrero.getTipo() + " embarcado en " + vehiculo.getClass().getSimpleName());
-    //     }
-    // }
-
-    public void embarcarGuerrero(VehiculoGuerra vehiculo, List<Guerrero> guerreros) throws TooManyGuerreros {
+    public void embarcarGuerrero(VehiculoGuerra vehiculo, List<Guerrero> guerreros) throws IllegalArgumentException, TooManyGuerreros {
         final int MAX_GUERREROS = 10;
     
         if (vehiculo == null || guerreros == null) {
             throw new IllegalArgumentException("El vehículo o la lista de guerreros no pueden ser nulos.");
         }
-    
-        listaGuerreros.clear();
 
-        logger.info("Número de guerreros actuales en la nave " + vehiculo.getTipo() + ": " + listaGuerreros.size());
-    
-        if (listaGuerreros.size() >= MAX_GUERREROS) {
-            logger.error("Intento de agregar más guerreros de los permitidos.");
-            throw new TooManyGuerreros("No se pueden embarcar más de " + MAX_GUERREROS + " guerreros en la nave " + vehiculo.getTipo());
-        }
-    
         for (Guerrero guerrero : guerreros) {
+            if (vehiculo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque Mantis.");
+            }
+    
+            if (vehiculo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora.");
+            }
+    
             if (listaGuerreros.size() >= MAX_GUERREROS) {
-                logger.error("Se alcanzó el límite de guerreros, no se pueden agregar más.");
-                break;
+                throw new TooManyGuerreros("No se pueden embarcar más de " + MAX_GUERREROS + " guerreros en la nave.");
             }
     
             listaGuerreros.add(guerrero);
-            logger.info("Guerrero de tipo " + guerrero.getTipo() + " embarcado en " + vehiculo.getTipo());
+            logger.info("Guerrero de tipo " + guerrero.getTipo() + " embarcado en " + vehiculo.getClass().getSimpleName());
         }
     }
-    
 
     public void mostrarGuerreros(List<Guerrero> guerrero) {
 
