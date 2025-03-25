@@ -9,6 +9,7 @@ import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
+import es.cursojava.excepciones.TooManyGuerreros;
 
 public class CampoDeBatalla {
 
@@ -22,9 +23,15 @@ public class CampoDeBatalla {
 
             NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador", depredadores);
             TanqueMantis tanqueMantis = new TanqueMantis(1000, 5, 5, "Aniquiladora", "Mantis", mantis);
-            
+
+            logger.info("Guerreros en la nave antes de embarcar: " + naveDepredadora.getListaGuerreros().size());
             naveDepredadora.embarcarGuerrero(naveDepredadora, depredadores);
+            logger.info("Guerreros en la nave después de embarcar: " + naveDepredadora.getListaGuerreros().size());
+
+            logger.info("Guerreros en el tanque antes de embarcar: " + tanqueMantis.getListaGuerreros().size());
             tanqueMantis.embarcarGuerrero(tanqueMantis, mantis);
+            logger.info("Guerreros en el tanque después de embarcar: " + tanqueMantis.getListaGuerreros().size());
+
             
             iniciarBatalla(naveDepredadora, tanqueMantis);
 

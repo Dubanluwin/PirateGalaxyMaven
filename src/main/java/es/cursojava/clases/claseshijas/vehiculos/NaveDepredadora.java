@@ -22,14 +22,14 @@ public class NaveDepredadora extends VehiculoGuerra {
     }
 
     @Override
-    public  void embarcarGuerrero(VehiculoGuerra naveDepredadora, Guerrero guerrero) throws TooManyGuerreros {
-
+public void embarcarGuerrero(VehiculoGuerra naveDepredadora, List<Guerrero> guerreros) throws TooManyGuerreros {
+    for (Guerrero guerrero : guerreros) {
         if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
-            throw new IllegalArgumentException(
-                    "Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
+            throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
         }
-        super.embarcarGuerrero(naveDepredadora, guerrero);
+        super.embarcarGuerrero(naveDepredadora, guerreros);
     }
+}
 
     @Override
     public int alcance() {

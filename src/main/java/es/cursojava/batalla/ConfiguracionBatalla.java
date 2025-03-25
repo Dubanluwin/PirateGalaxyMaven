@@ -26,7 +26,7 @@ public class ConfiguracionBatalla {
             Mantis mantis2 = new Mantis("Mantis2", "Mantis", 1, 9, "Colmena");
             Mantis mantis3 = new Mantis("Mantis3", "Mantis", 9, 1, "Colmena");
             Mantis mantis4 = new Mantis("Mantis4", "Mantis", 2, 8, "Colmena");
-            Mantis mantis5 = new Mantis("Mantis5", "Mantis", 6, 6, "Colmena");
+            Mantis mantis5 = new Mantis("Mantis5", "Mantis", 4, 6, "Colmena");
             Mantis mantis6 = new Mantis("Mantis6", "Mantis", 4, 5, "Colmena");
             Mantis mantis7 = new Mantis("Mantis7", "Mantis", 2, 8, "Colmena");
             Mantis mantis8 = new Mantis("Mantis8", "Mantis", 5, 5, "Colmena");
