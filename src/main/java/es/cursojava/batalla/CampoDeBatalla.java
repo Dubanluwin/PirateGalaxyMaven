@@ -26,23 +26,23 @@ public class CampoDeBatalla {
 
             logger.info("Guerreros en la Nave Depredadora antes de embarcar: " + naveDepredadora.getListaGuerreros().size());
             naveDepredadora.embarcarGuerrero(naveDepredadora, depredadores);
-            logger.info("Guerreros en la Nave Depredadora después de embarcar: " + naveDepredadora.getListaGuerreros().size());
+            logger.info("Guerreros en la Nave Depredadora despues de embarcar: " + naveDepredadora.getListaGuerreros().size());
 
             logger.info("Guerreros en el Tanque Mantis antes de embarcar: " + tanqueMantis.getListaGuerreros().size());
             tanqueMantis.embarcarGuerrero(tanqueMantis, mantis);
-            logger.info("Guerreros en el Tanque Mantis después de embarcar: " + tanqueMantis.getListaGuerreros().size());
+            logger.info("Guerreros en el Tanque Mantis despues de embarcar: " + tanqueMantis.getListaGuerreros().size());
             
             iniciarBatalla(naveDepredadora, tanqueMantis);
 
         } catch (TooManyAtaqueDefensa e){
-            logger.error("Error al crear los vehículos de guerra: " + e.getMessage());
+            logger.error("Error al crear los vehiculos de guerra: " + e.getMessage());
         } catch (TooManyGuerreros e ) {
             logger.error("La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.");
         }
     }
 
     private static void iniciarBatalla(NaveDepredadora nave, TanqueMantis tanque) {
-        logger.info("¡Comienza la batalla entre " + nave.getNombre() +" y " + tanque.getNombre() + "!");
+        logger.info("Comienza la batalla entre " + nave.getNombre() +" y " + tanque.getNombre() + "!");
 
         int turno = 1;
         while (nave.getPuntosVida() > 0 && tanque.getPuntosVida() > 0) {

@@ -19,7 +19,7 @@ public class ConfiguracionBatalla {
 
         List<Guerrero> listaMantis = new CopyOnWriteArrayList<>();
 
-        logger.info("Creando la tripulación de Mantis...");
+        logger.info("Creando la tripulacion de Mantis...");
 
         try {
             Mantis mantis1 = new Mantis("Mantis1", "Mantis", 2, 8, "Colmena");
@@ -57,7 +57,7 @@ public class ConfiguracionBatalla {
 
         List<Guerrero> listaDepredadores = new CopyOnWriteArrayList<>();
 
-        logger.info("Creando la tripulación de Depredadores...");
+        logger.info("Creando la tripulacion de Depredadores...");
 
         Depredador depredador;
 
