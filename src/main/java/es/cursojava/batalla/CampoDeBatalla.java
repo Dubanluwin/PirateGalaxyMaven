@@ -24,54 +24,23 @@ public class CampoDeBatalla {
             NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador");
             TanqueMantis tanqueMantis = new TanqueMantis(1000, 5, 5, "Aniquiladora", "Mantis");
 
-            logger.info("Guerreros en la Nave Depredadora antes de embarcar: " + naveDepredadora.getListaGuerreros().size());
+            logger.info("Guerreros en la Nave Depredadora antes de embarcar: "
+                    + naveDepredadora.getListaGuerreros().size());
             naveDepredadora.embarcarGuerrero(naveDepredadora, depredadores);
-            logger.info("Guerreros en la Nave Depredadora despues de embarcar: " + naveDepredadora.getListaGuerreros().size());
+            logger.info("Guerreros en la Nave Depredadora despues de embarcar: "
+                    + naveDepredadora.getListaGuerreros().size());
 
             logger.info("Guerreros en el Tanque Mantis antes de embarcar: " + tanqueMantis.getListaGuerreros().size());
             tanqueMantis.embarcarGuerrero(tanqueMantis, mantis);
-            logger.info("Guerreros en el Tanque Mantis despues de embarcar: " + tanqueMantis.getListaGuerreros().size());
-            
-            iniciarBatalla(naveDepredadora, tanqueMantis);
+            logger.info(
+                    "Guerreros en el Tanque Mantis despues de embarcar: " + tanqueMantis.getListaGuerreros().size());
 
-        } catch (TooManyAtaqueDefensa e){
+            ConfiguracionBatalla.iniciarBatalla(naveDepredadora, tanqueMantis);
+
+        } catch (TooManyAtaqueDefensa e) {
             logger.error("Error al crear los vehiculos de guerra: " + e.getMessage());
-        } catch (TooManyGuerreros e ) {
+        } catch (TooManyGuerreros e) {
             logger.error("La embarcacion de los guerreros no puede superar la cantidad de 10 candidatos.");
         }
     }
-
-    private static void iniciarBatalla(NaveDepredadora nave, TanqueMantis tanque) {
-        logger.info("Comienza la batalla entre " + nave.getNombre() +" y " + tanque.getNombre() + "!");
-
-        int turno = 1;
-        while (nave.getPuntosVida() > 0 && tanque.getPuntosVida() > 0) {
-            System.out.println("\nTurno " + turno);
-            
-            // Ataque de la nave al tanque
-            int ataqueNave = nave.atacar();
-            int dañoRecibidoTanque = tanque.defender(ataqueNave);
-            logger.info(nave.getNombre() + " ataca con " + ataqueNave +" de danio. | " + tanque.getNombre() + " recibe " + dañoRecibidoTanque +" de danio.");
-
-            if (tanque.getPuntosVida() <= 0) {
-                logger.info(tanque.getNombre() + " ha sido destruido." + nave.getNombre() + " gana la batalla!");
-                break;
-            }
-
-            // Ataque del tanque a la nave
-            int ataqueTanque = tanque.atacar();
-            int dañoRecibidoNave = nave.defender(ataqueTanque);
-            logger.info(tanque.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + nave.getNombre() + " recibe " + dañoRecibidoNave + " de danio.");
-
-            if (nave.getPuntosVida() <= 0) {
-                logger.info(nave.getNombre() + " ha sido destruido. | " + tanque.getNombre() + " gana la batalla!");
-                break;
-            }
-
-            turno++;
-        }
-
-        logger.info("Fin de la batalla!");
-    }
-
 }

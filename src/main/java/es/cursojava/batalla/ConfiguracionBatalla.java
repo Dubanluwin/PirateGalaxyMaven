@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 
 import es.cursojava.clases.claseshijas.guerreros.Depredador;
 import es.cursojava.clases.claseshijas.guerreros.Mantis;
+import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
+import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 
@@ -74,6 +76,41 @@ public class ConfiguracionBatalla {
 
         return listaDepredadores;
 
+    }
+
+    public static void iniciarBatalla(NaveDepredadora nave, TanqueMantis tanque) {
+        logger.info("Comienza la batalla entre " + nave.getNombre() + " y " + tanque.getNombre() + "!");
+
+        int turno = 1;
+        while (nave.getPuntosVida() > 0 && tanque.getPuntosVida() > 0) {
+            System.out.println("\nTurno " + turno);
+
+            // Ataque de la nave al tanque
+            int ataqueNave = nave.atacar();
+            int dañoRecibidoTanque = tanque.defender(ataqueNave);
+            logger.info(nave.getNombre() + " ataca con " + ataqueNave + " de danio. | " + tanque.getNombre()
+                    + " recibe " + dañoRecibidoTanque + " de danio.");
+
+            if (tanque.getPuntosVida() <= 0) {
+                logger.info(tanque.getNombre() + " ha sido destruido." + nave.getNombre() + " gana la batalla!");
+                break;
+            }
+
+            // Ataque del tanque a la nave
+            int ataqueTanque = tanque.atacar();
+            int dañoRecibidoNave = nave.defender(ataqueTanque);
+            logger.info(tanque.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + nave.getNombre()
+                    + " recibe " + dañoRecibidoNave + " de danio.");
+
+            if (nave.getPuntosVida() <= 0) {
+                logger.info(nave.getNombre() + " ha sido destruido. | " + tanque.getNombre() + " gana la batalla!");
+                break;
+            }
+
+            turno++;
+        }
+
+        logger.info("Fin de la batalla!");
     }
 
 }
