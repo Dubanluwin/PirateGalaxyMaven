@@ -6,10 +6,6 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.clases.claseshijas.guerreros.Depredador;
-import es.cursojava.clases.claseshijas.guerreros.Mantis;
-import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
-import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
 import es.cursojava.interfaz.Tripulable;
@@ -36,6 +32,15 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.tipo = tipo;
         this.listaGuerreros = listaGuerreros;
         // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new ArrayList<>();
+    }
+    
+    // Constructor sin la Lista de Guerreros.
+    public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
+        this.puntosVida = puntosVida;
+        this.ataque = ataque;
+        this.defensa = defensa;
+        this.nombre = nombre;
+        this.tipo = tipo;
     }
 
     public int getPuntosVida() {
@@ -161,9 +166,9 @@ public abstract class VehiculoGuerra implements Tripulable {
         if (vehiculo == null || guerreros == null) {
             throw new IllegalArgumentException("El vehículo o la lista de guerreros no pueden ser nulos.");
         }
-
-        listaGuerreros.clear();
     
+        listaGuerreros.clear();
+
         logger.info("Número de guerreros actuales en la nave " + vehiculo.getTipo() + ": " + listaGuerreros.size());
     
         if (listaGuerreros.size() >= MAX_GUERREROS) {

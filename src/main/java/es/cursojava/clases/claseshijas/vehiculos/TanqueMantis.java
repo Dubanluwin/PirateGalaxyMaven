@@ -21,6 +21,10 @@ public class TanqueMantis extends VehiculoGuerra {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
     }
 
+    public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
+        super(puntosVida, ataque, defensa, nombre, tipo);
+    }
+
     @Override
     public int atacar() {
         double probabilidad = Math.random();
