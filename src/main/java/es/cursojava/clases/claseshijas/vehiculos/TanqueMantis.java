@@ -49,12 +49,12 @@ public class TanqueMantis extends VehiculoGuerra {
             defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
         }
 
-        int daño = ataqueRecibido - defensaTotal;
-        if (daño > 0) {
-            puntosVida -= daño;
+        int danio = ataqueRecibido - defensaTotal;
+        if (danio > 0) {
+            puntosVida -= danio;
         }
 
-        return Math.max(daño, 0);
+        return Math.max(danio, 0);
     }
 
     @Override

@@ -67,12 +67,12 @@ public class NaveDepredadora extends VehiculoGuerra {
             defensaTotal += guerrero.apoyoDefensa();
         }
 
-        int daño = ataqueRecibido - defensaTotal;
-        if (daño > 0) {
-            puntosVida -= daño;
+        int danio = ataqueRecibido - defensaTotal;
+        if (danio > 0) {
+            puntosVida -= danio;
         }
 
-        return Math.max(daño, 0);
+        return Math.max(danio, 0);
     }
 
     @Override

@@ -1,0 +1,15 @@
+es\cursojava\excepciones\TooManyAtaqueDefensa.class
+es\cursojava\batalla\CampoDeBatalla.class
+es\cursojava\excepciones\EqualScope.class
+es\cursojava\clases\claseshijas\guerreros\Depredador.class
+es\cursojava\clases\claseshijas\guerreros\Mantis.class
+es\cursojava\Propuestas.class
+es\cursojava\clases\claseshijas\vehiculos\NaveDepredadora.class
+es\cursojava\clases\clasespadres\VehiculoGuerra.class
+es\cursojava\excepciones\TooManyGuerreros.class
+es\cursojava\batalla\ConfiguracionBatalla.class
+es\cursojava\interfaz\Tripulable.class
+es\cursojava\excepciones\TooManyFuerzaResistencia.class
+es\cursojava\clases\claseshijas\vehiculos\TanqueMantis.class
+es\cursojava\excepciones\TooManyStats.class
+es\cursojava\clases\clasespadres\Guerrero.class

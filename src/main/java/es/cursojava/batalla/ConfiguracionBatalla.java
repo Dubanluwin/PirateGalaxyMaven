@@ -87,9 +87,9 @@ public class ConfiguracionBatalla {
 
             // Ataque de la nave al tanque
             int ataqueNave = nave.atacar();
-            int dañoRecibidoTanque = tanque.defender(ataqueNave);
+            int danioRecibidoTanque = tanque.defender(ataqueNave);
             logger.info(nave.getNombre() + " ataca con " + ataqueNave + " de danio. | " + tanque.getNombre()
-                    + " recibe " + dañoRecibidoTanque + " de danio.");
+                    + " recibe " + danioRecibidoTanque + " de danio.");
 
             if (tanque.getPuntosVida() <= 0) {
                 logger.info(tanque.getNombre() + " ha sido destruido." + nave.getNombre() + " gana la batalla!");
@@ -98,9 +98,9 @@ public class ConfiguracionBatalla {
 
             // Ataque del tanque a la nave
             int ataqueTanque = tanque.atacar();
-            int dañoRecibidoNave = nave.defender(ataqueTanque);
+            int danioRecibidoNave = nave.defender(ataqueTanque);
             logger.info(tanque.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + nave.getNombre()
-                    + " recibe " + dañoRecibidoNave + " de danio.");
+                    + " recibe " + danioRecibidoNave + " de danio.");
 
             if (nave.getPuntosVida() <= 0) {
                 logger.info(nave.getNombre() + " ha sido destruido. | " + tanque.getNombre() + " gana la batalla!");
