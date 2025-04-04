@@ -23826,3 +23826,355 @@
 2025-04-04 16:25:03 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 17 de danio. | Mutiladora recibe 7 de danio.
 2025-04-04 16:25:03 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido destruido. | Aniquiladora gana la batalla!
 2025-04-04 16:25:03 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Mantis...
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Depredadores...
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora despues de embarcar: 10
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis despues de embarcar: 10
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Mutiladora: 97
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Aniquiladora: 70
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ha sido seleccionado para la batalla.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Comienza la batalla entre Aniquiladora y El Corredor!
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 1 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 13 de danio. | El Corredor recibe 13 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 1 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 1 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 12 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 14 de danio. | El Corredor recibe 13 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 1 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 1 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 0 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 12 de danio. | El Corredor recibe 11 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 7 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 12 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 13 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 2 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 3 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 4 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 12 de danio. | El Corredor recibe 9 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 8 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 12 de danio. | El Corredor recibe 10 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 5 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 10 de danio. | El Corredor recibe 8 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | El Corredor recibe 6 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 7 de danio. | El Corredor recibe 4 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 11 de danio. | El Corredor recibe 11 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | El Corredor recibe 3 de danio.
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - El Corredor ha sido destruido.Aniquiladora gana la batalla!
+2025-04-04 17:35:21 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!

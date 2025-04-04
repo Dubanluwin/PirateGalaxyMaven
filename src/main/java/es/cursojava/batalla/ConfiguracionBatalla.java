@@ -11,7 +11,10 @@ import es.cursojava.clases.claseshijas.guerreros.Mantis;
 import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.clases.clasespadres.VehiculoGuerra;
+import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
+import es.cursojava.excepciones.TooManyGuerreros;
 
 public class ConfiguracionBatalla {
 
@@ -78,39 +81,113 @@ public class ConfiguracionBatalla {
 
     }
 
-    public static void iniciarBatalla(NaveDepredadora nave, TanqueMantis tanque) {
-        logger.info("Comienza la batalla entre " + nave.getNombre() + " y " + tanque.getNombre() + "!");
+    public static void iniciarBatalla(VehiculoGuerra vehiculoProfe) {
+        
+        try {
+            List<Guerrero> mantis = ConfiguracionBatalla.crearMantis(10);
+            List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores(10);
 
-        int turno = 1;
-        while (nave.getPuntosVida() > 0 && tanque.getPuntosVida() > 0) {
-            System.out.println("\nTurno " + turno);
+            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 5, 5, "Mutiladora", "Depredador");
+            TanqueMantis tanqueMantis = new TanqueMantis(1000, 5, 5, "Aniquiladora", "Mantis");
 
-            // Ataque de la nave al tanque
-            int ataqueNave = nave.atacar();
-            int danioRecibidoTanque = tanque.defender(ataqueNave);
-            logger.info(nave.getNombre() + " ataca con " + ataqueNave + " de danio. | " + tanque.getNombre()
-                    + " recibe " + danioRecibidoTanque + " de danio.");
+            logger.info("Guerreros en la Nave Depredadora antes de embarcar: "
+                    + naveDepredadora.getListaGuerreros().size());
+            naveDepredadora.embarcarGuerrero(naveDepredadora, depredadores);
+            logger.info("Guerreros en la Nave Depredadora despues de embarcar: "
+                    + naveDepredadora.getListaGuerreros().size());
 
-            if (tanque.getPuntosVida() <= 0) {
-                logger.info(tanque.getNombre() + " ha sido destruido." + nave.getNombre() + " gana la batalla!");
-                break;
+            logger.info("Guerreros en el Tanque Mantis antes de embarcar: " + tanqueMantis.getListaGuerreros().size());
+            tanqueMantis.embarcarGuerrero(tanqueMantis, mantis);
+            logger.info(
+                    "Guerreros en el Tanque Mantis despues de embarcar: " + tanqueMantis.getListaGuerreros().size());
+
+            int alcanceNave = naveDepredadora.alcance();
+            int alcanceTanque = tanqueMantis.alcance();
+            
+            logger.info("Alcance de " + naveDepredadora.getNombre() + ": " + alcanceNave);
+            logger.info("Alcance de " + tanqueMantis.getNombre() + ": " + alcanceTanque);
+
+            VehiculoGuerra combatiente = preparacionBatalla(naveDepredadora, tanqueMantis);
+
+            logger.info("Comienza la batalla entre " + combatiente.getNombre() + " y " + vehiculoProfe.getNombre() + "!");
+
+            boolean primerAtaque;
+            if (combatiente.alcance() >= vehiculoProfe.alcance()) {
+                primerAtaque = true;
+            } else {
+                primerAtaque = false;
             }
 
-            // Ataque del tanque a la nave
-            int ataqueTanque = tanque.atacar();
-            int danioRecibidoNave = nave.defender(ataqueTanque);
-            logger.info(tanque.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + nave.getNombre()
-                    + " recibe " + danioRecibidoNave + " de danio.");
+            int turno = 1;
+            while (combatiente.getPuntosVida() > 0 && vehiculoProfe.getPuntosVida() > 0) {
+                System.out.println("\nTurno " + turno);
 
-            if (nave.getPuntosVida() <= 0) {
-                logger.info(nave.getNombre() + " ha sido destruido. | " + tanque.getNombre() + " gana la batalla!");
-                break;
+                if (primerAtaque = true) {
+
+                    logger.info(combatiente.getNombre() + " inicia la batalla debido a su mayor alcance.");
+
+                    int ataqueNave = combatiente.atacar();
+                    int danioRecibidoTanque = vehiculoProfe.defender(ataqueNave);
+                    logger.info(combatiente.getNombre() + " ataca con " + ataqueNave + " de danio. | " + vehiculoProfe.getNombre()
+                            + " recibe " + danioRecibidoTanque + " de danio.");
+
+                    if (vehiculoProfe.getPuntosVida() <= 0) {
+                        logger.info(vehiculoProfe.getNombre() + " ha sido destruido." + combatiente.getNombre() + " gana la batalla!");
+                        break;
+                    }
+                }
+                
+                else if (primerAtaque = false) {
+
+                    logger.info(vehiculoProfe.getNombre() + " inicia la batalla debido a su mayor alcance.");
+                    
+                    int ataqueTanque = vehiculoProfe.atacar();
+                    int danioRecibidoNave = combatiente.defender(ataqueTanque);
+                    logger.info(vehiculoProfe.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + combatiente.getNombre()
+                            + " recibe " + danioRecibidoNave + " de danio.");
+        
+                    if (combatiente.getPuntosVida() <= 0) {
+                        logger.info(combatiente.getNombre() + " ha sido destruido. | " + vehiculoProfe.getNombre() + " gana la batalla!");
+                        break;
+                    }
+                }
+
+                turno++;
             }
 
-            turno++;
+            logger.info("Fin de la batalla!");
+
+        } catch (TooManyAtaqueDefensa e) {
+            logger.error("Error al crear los vehículos de guerra: " + e.getMessage());
+        } catch (TooManyGuerreros e) {
+            logger.error("La embarcación de los guerreros no puede superar la cantidad de 10 candidatos.");
         }
-
-        logger.info("Fin de la batalla!");
     }
 
+    public static VehiculoGuerra preparacionBatalla(VehiculoGuerra tanqueMantis, VehiculoGuerra naveDepredadora) {
+        // Determina quién tiene mayor alcance 1:
+        // VehiculoGuerra atacante = (alcanceNave >= alcanceTanque) ? naveDepredadora : tanqueMantis;
+        // if (alcanceNaveEnemiga > atacante.alcance()) {
+        //     logger.info("La nave enemiga tiene mayor alcance y ataca primero.");
+        //     ConfiguracionBatalla.iniciarBatalla(naveEnemiga, atacante);
+        // } else {
+        //     logger.info(atacante.getNombre() + " tiene mayor alcance y ataca primero.");
+        //     ConfiguracionBatalla.iniciarBatalla(atacante, naveEnemiga);
+        // }
+
+        // Método alcance definido
+        VehiculoGuerra combatiente;
+        if (naveDepredadora.alcance() >= tanqueMantis.alcance()) {
+            combatiente = naveDepredadora;
+        } else {
+            combatiente = tanqueMantis;
+        }
+        logger.info(combatiente.getNombre() + " ha sido seleccionado para la batalla.");            
+
+        return combatiente;
+    }
+
+
 }
+
+
