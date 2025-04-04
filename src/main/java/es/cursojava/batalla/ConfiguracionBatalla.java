@@ -150,7 +150,7 @@ public class ConfiguracionBatalla {
         }
     }
 
-    public static VehiculoGuerra preparacionBatalla(VehiculoGuerra tanqueMantis, VehiculoGuerra naveDepredadora) {
+    private static VehiculoGuerra preparacionBatalla(VehiculoGuerra tanqueMantis, VehiculoGuerra naveDepredadora) {
         // Determina quién tiene mayor alcance 1:
         // VehiculoGuerra atacante = (alcanceNave >= alcanceTanque) ? naveDepredadora : tanqueMantis;
         // if (alcanceNaveEnemiga > atacante.alcance()) {
