@@ -7,24 +7,18 @@ import org.slf4j.LoggerFactory;
 
 import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
+import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
 
 public class CampoDeBatalla {
 
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws TooManyAtaqueDefensa {
 
         List<Guerrero> guerrerosProfe = ConfiguracionBatalla.crearMantis(10);
 
-        TanqueMantis vehiculoJose = new TanqueMantis(91500, 8, 4, "El Corredor", "Sport");
-
-        try {
-            vehiculoJose.embarcarGuerrero(vehiculoJose, guerrerosProfe);
-        } catch (TooManyGuerreros e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        TanqueMantis vehiculoJose = new TanqueMantis(800, 9, 5, "El Corredor", "Sport", guerrerosProfe);
 
         ConfiguracionBatalla.iniciarBatalla(vehiculoJose);
 

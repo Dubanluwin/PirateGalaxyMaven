@@ -18,9 +18,9 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     private static final Logger logger = LoggerFactory.getLogger(VehiculoGuerra.class);
 
-    protected int puntosVida = 1000;
-    protected int ataque = 5;
-    protected int defensa = 5;
+    protected int puntosVida;
+    protected int ataque;
+    protected int defensa;
     protected String nombre;
     protected String tipo;
     protected List<Guerrero> listaGuerreros = new ArrayList<>();
@@ -29,15 +29,23 @@ public abstract class VehiculoGuerra implements Tripulable {
             List<Guerrero> listaGuerreros)
             throws TooManyAtaqueDefensa {
 
-        controlarAtaqueDefensa(ataque, defensa);
+        try {
 
-        this.puntosVida = puntosVida;
-        this.nombre = nombre;
-        this.tipo = tipo;
-        this.listaGuerreros = listaGuerreros;
-        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new ArrayList<>();
+            controlarAtaqueDefensa(ataque, defensa);
+
+            this.puntosVida = puntosVida;
+            this.nombre = nombre;
+            this.tipo = tipo;
+            this.listaGuerreros = listaGuerreros;
+        } catch (TooManyAtaqueDefensa e) {
+            throw new TooManyAtaqueDefensa(
+                    "La suma del ataque y la defensa de los guerreros no puede ser mayor de 10 puntos");
+
+        }
+        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new
+        // ArrayList<>();
     }
-    
+
     // Constructor sin la Lista de Guerreros.
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
         this.puntosVida = puntosVida;
@@ -85,7 +93,8 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     public void setListaGuerreros(List<Guerrero> listaGuerreros) {
         this.listaGuerreros = listaGuerreros;
-        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new ArrayList<>();
+        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new
+        // ArrayList<>();
     }
 
     public String getTipo() {
@@ -98,12 +107,29 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     @Override
     public int atacar() {
-        return 0;
+
+        int ataqueTotal = (int) (ataque * Math.random());
+        for (Guerrero guerrero : listaGuerreros) {
+            ataqueTotal += guerrero.apoyoAtaque();
+        }
+
+        return ataqueTotal;
     }
 
     @Override
-    public int defender(int danho) {
-        return 0;
+    public int defender(int ataqueRecibido) {
+
+        int defensaTotal = (int) (defensa * Math.random());
+        for (Guerrero guerrero : listaGuerreros) {
+            defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
+        }
+
+        int danio = ataqueRecibido - defensaTotal;
+        if (danio > 0) {
+            puntosVida -= danio;
+        }
+
+        return Math.max(danio, 0);
     }
 
     @Override
@@ -119,7 +145,7 @@ public abstract class VehiculoGuerra implements Tripulable {
     }
 
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
-        
+
         if (ataque < 0 || defensa < 0) {
             throw new TooManyAtaqueDefensa("Los valores de ataque y defensa no pueden ser negativos.");
         }
@@ -138,29 +164,32 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.defensa = defensa;
     }
 
-
-    public void embarcarGuerrero(VehiculoGuerra vehiculo, List<Guerrero> guerreros) throws IllegalArgumentException, TooManyGuerreros {
+    public void embarcarGuerrero(VehiculoGuerra vehiculo, List<Guerrero> guerreros)
+            throws IllegalArgumentException, TooManyGuerreros {
         final int MAX_GUERREROS = 10;
-    
+
         if (vehiculo == null || guerreros == null) {
             throw new IllegalArgumentException("El vehículo o la lista de guerreros no pueden ser nulos.");
         }
 
         for (Guerrero guerrero : guerreros) {
             if (vehiculo instanceof TanqueMantis && !(guerrero instanceof Mantis)) {
-                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en un Tanque Mantis.");
+                throw new IllegalArgumentException(
+                        "Solo los guerreros de tipo Mantis pueden embarcar en un Tanque Mantis.");
             }
-    
+
             if (vehiculo instanceof NaveDepredadora && !(guerrero instanceof Depredador)) {
-                throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora.");
+                throw new IllegalArgumentException(
+                        "Solo los guerreros de tipo Depredador pueden embarcar en una Nave Depredadora.");
             }
-    
+
             if (listaGuerreros.size() >= MAX_GUERREROS) {
                 throw new TooManyGuerreros("No se pueden embarcar más de " + MAX_GUERREROS + " guerreros en la nave.");
             }
-    
+
             listaGuerreros.add(guerrero);
-            logger.info("Guerrero de tipo " + guerrero.getTipo() + " embarcado en " + vehiculo.getClass().getSimpleName());
+            logger.info(
+                    "Guerrero de tipo " + guerrero.getTipo() + " embarcado en " + vehiculo.getClass().getSimpleName());
         }
     }
 

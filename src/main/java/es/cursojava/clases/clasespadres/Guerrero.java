@@ -9,10 +9,10 @@ public abstract class Guerrero {
 
     private static final Logger logger = LoggerFactory.getLogger(Guerrero.class);
 
-    protected String nombre;
-    protected String tipo;
-    protected int fuerza;
-    protected int resistencia;
+    private String nombre;
+    private String tipo;
+    private int fuerza;
+    private int resistencia;
 
     public Guerrero(String nombre, String tipo, int fuerza, int resistencia) throws TooManyFuerzaResistencia {
 

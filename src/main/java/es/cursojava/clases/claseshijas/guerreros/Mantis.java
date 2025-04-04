@@ -32,7 +32,7 @@ public class Mantis extends Guerrero {
     @Override
     public String toString() {
 
-        String mensaje = "\n" + nombre + ", " + tipo + ", fuerza = " + fuerza + ", resistencia = " + resistencia
+        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = " + getResistencia()
                 + ", planeta = " + planeta;
 
         return mensaje;
@@ -42,7 +42,7 @@ public class Mantis extends Guerrero {
     public int apoyoAtaque() {
 
         double factorFuerzaMantis = Math.random() * 0.5;
-        int sumaFuerzaMantis = this.fuerza;
+        int sumaFuerzaMantis = getFuerza();
 
         return (int) (sumaFuerzaMantis * factorFuerzaMantis);
     }
@@ -51,7 +51,7 @@ public class Mantis extends Guerrero {
     public int apoyoDefensa() {
 
         double factorDefensaMantis = Math.random() * 0.5;
-        int sumaResistenciaMantis = this.resistencia;
+        int sumaResistenciaMantis = getResistencia();
 
         return (int) (sumaResistenciaMantis * factorDefensaMantis);
     }

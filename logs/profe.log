@@ -1,0 +1,120 @@
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Mantis...
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Depredadores...
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora despues de embarcar: 10
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis despues de embarcar: 10
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Mutiladora: 69
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Aniquiladora: 18
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ha sido seleccionado para la batalla.
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Comienza la batalla entre Mutiladora y !
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla -  inicia la batalla debido a su mayor alcance.
+2025-04-04 19:36:46 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo  ataca con 411 puntos
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla -  ataca con 411 de danio. | Mutiladora recibe 398 de danio.
+2025-04-04 19:36:46 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo  defiende con 894 puntos
+2025-04-04 19:36:46 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo  le quedan -794 puntos
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Mutiladora ataca con 2 de danio. |  recibe 0 de danio.
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla -  ha sido destruido - Mutiladora gana la batalla!
+2025-04-04 19:36:46 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Mantis...
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Depredadores...
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora despues de embarcar: 10
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis despues de embarcar: 10
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Mutiladora: 31
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Aniquiladora: 87
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ha sido seleccionado para la batalla.
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Comienza la batalla entre Aniquiladora y Naglfari!
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 19:40:44 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari defiende con 323 puntos
+2025-04-04 19:40:44 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari le quedan -223 puntos
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | Naglfari recibe 0 de danio.
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Naglfari ha sido destruido - Aniquiladora gana la batalla!
+2025-04-04 19:40:44 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Mantis...
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Creando la tripulacion de Depredadores...
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora antes de embarcar: 0
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Depredador embarcado en NaveDepredadora
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en la Nave Depredadora despues de embarcar: 10
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis antes de embarcar: 0
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  e.c.c.clasespadres.VehiculoGuerra - Guerrero de tipo Mantis embarcado en TanqueMantis
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Guerreros en el Tanque Mantis despues de embarcar: 10
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Mutiladora: 75
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Alcance de Aniquiladora: 65
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ha sido seleccionado para la batalla.
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Comienza la batalla entre Aniquiladora y Naglfari!
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora inicia la batalla debido a su mayor alcance.
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari defiende con 111 puntos
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari le quedan 889 puntos
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 5 de danio. | Naglfari recibe 0 de danio.
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari ataca con 398 puntos
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Naglfari ataca con 398 de danio. | Aniquiladora recibe 385 de danio.
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari defiende con 798 puntos
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari le quedan 91 puntos
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 9 de danio. | Naglfari recibe 0 de danio.
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari ataca con 583 puntos
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Naglfari ataca con 583 de danio. | Aniquiladora recibe 575 de danio.
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari defiende con 590 puntos
+2025-04-04 19:41:02 [main] INFO  guerra.duban.viktor.BarcoVikingo - Vehiculo Naglfari le quedan -499 puntos
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Aniquiladora ataca con 6 de danio. | Naglfari recibe 0 de danio.
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Naglfari ha sido destruido - Aniquiladora gana la batalla!
+2025-04-04 19:41:02 [main] INFO  es.cursojava.batalla.CampoDeBatalla - Fin de la batalla!

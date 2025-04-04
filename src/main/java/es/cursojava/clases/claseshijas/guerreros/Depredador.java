@@ -29,7 +29,7 @@ public class Depredador extends Guerrero {
     @Override
     public String toString() {
 
-        String mensaje = "\n" + nombre + ", " + tipo + ", fuerza = " + fuerza + ", resistencia = " + resistencia
+        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = " + getResistencia()
                 + ", planeta = " + planeta;
 
         return mensaje;
@@ -39,7 +39,7 @@ public class Depredador extends Guerrero {
     public int apoyoAtaque() {
 
         double factorFuerzaDepredador = Math.random() * 0.5;
-        int sumaFuerzaDepredador = this.fuerza;
+        int sumaFuerzaDepredador = getFuerza();
 
         return (int) (sumaFuerzaDepredador * factorFuerzaDepredador);
     }
@@ -48,7 +48,7 @@ public class Depredador extends Guerrero {
     public int apoyoDefensa() {
 
         double factorDefensaDepredador = Math.random() * 0.5;
-        int sumaResistenciaDepredador = this.resistencia;
+        int sumaResistenciaDepredador = getResistencia();
 
         return (int) (sumaResistenciaDepredador * factorDefensaDepredador);
     }
