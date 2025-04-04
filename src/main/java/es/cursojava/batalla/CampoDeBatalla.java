@@ -5,11 +5,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.clases.clasespadres.Guerrero;
-import es.cursojava.clases.clasespadres.VehiculoGuerra;
-import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
 
 public class CampoDeBatalla {
@@ -18,12 +15,20 @@ public class CampoDeBatalla {
 
     public static void main(String[] args) {
 
+        List<Guerrero> guerrerosProfe = ConfiguracionBatalla.crearMantis(10);
 
         TanqueMantis vehiculoJose = new TanqueMantis(941, 5, 4, "El Corredor", "Sport");
 
+        try {
+            vehiculoJose.embarcarGuerrero(vehiculoJose, guerrerosProfe);
+        } catch (TooManyGuerreros e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+
+
         ConfiguracionBatalla.iniciarBatalla(vehiculoJose);
-
-
 
         // try {
         //     List<Guerrero> mantis = ConfiguracionBatalla.crearMantis(10);

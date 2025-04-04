@@ -82,7 +82,7 @@ public class ConfiguracionBatalla {
     }
 
     public static void iniciarBatalla(VehiculoGuerra vehiculoProfe) {
-        
+
         try {
             List<Guerrero> mantis = ConfiguracionBatalla.crearMantis(10);
             List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores(10);
@@ -132,7 +132,17 @@ public class ConfiguracionBatalla {
                             + " recibe " + danioRecibidoTanque + " de danio.");
 
                     if (vehiculoProfe.getPuntosVida() <= 0) {
-                        logger.info(vehiculoProfe.getNombre() + " ha sido destruido." + combatiente.getNombre() + " gana la batalla!");
+                        logger.info(vehiculoProfe.getNombre() + " ha sido destruido - " + combatiente.getNombre() + " gana la batalla!");
+                        break;
+                    }
+
+                    int ataqueTanque = vehiculoProfe.atacar();
+                    int danioRecibidoNave = combatiente.defender(ataqueTanque);
+                    logger.info(vehiculoProfe.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + combatiente.getNombre()
+                            + " recibe " + danioRecibidoNave + " de danio.");
+        
+                    if (combatiente.getPuntosVida() <= 0) {
+                        logger.info(combatiente.getNombre() + " ha sido destruido. - " + vehiculoProfe.getNombre() + " gana la batalla!");
                         break;
                     }
                 }
@@ -147,7 +157,17 @@ public class ConfiguracionBatalla {
                             + " recibe " + danioRecibidoNave + " de danio.");
         
                     if (combatiente.getPuntosVida() <= 0) {
-                        logger.info(combatiente.getNombre() + " ha sido destruido. | " + vehiculoProfe.getNombre() + " gana la batalla!");
+                        logger.info(combatiente.getNombre() + " ha sido destruido. - " + vehiculoProfe.getNombre() + " gana la batalla!");
+                        break;
+                    }
+
+                    int ataqueNave = combatiente.atacar();
+                    int danioRecibidoTanque = vehiculoProfe.defender(ataqueNave);
+                    logger.info(combatiente.getNombre() + " ataca con " + ataqueNave + " de danio. | " + vehiculoProfe.getNombre()
+                            + " recibe " + danioRecibidoTanque + " de danio.");
+
+                    if (vehiculoProfe.getPuntosVida() <= 0) {
+                        logger.info(vehiculoProfe.getNombre() + " ha sido destruido - " + combatiente.getNombre() + " gana la batalla!");
                         break;
                     }
                 }
