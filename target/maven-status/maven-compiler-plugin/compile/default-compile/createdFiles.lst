@@ -8,6 +8,7 @@ es\cursojava\clases\claseshijas\vehiculos\NaveDepredadora.class
 es\cursojava\clases\clasespadres\VehiculoGuerra.class
 es\cursojava\excepciones\TooManyGuerreros.class
 es\cursojava\batalla\ConfiguracionBatalla.class
+es\cursojava\excepciones\TooManyHp.class
 es\cursojava\interfaz\Tripulable.class
 es\cursojava\excepciones\TooManyFuerzaResistencia.class
 es\cursojava\clases\claseshijas\vehiculos\TanqueMantis.class
