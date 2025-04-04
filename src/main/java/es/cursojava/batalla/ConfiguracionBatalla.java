@@ -114,17 +114,19 @@ public class ConfiguracionBatalla {
             boolean primerAtaque;
             if (combatiente.alcance() >= vehiculoProfe.alcance()) {
                 primerAtaque = true;
+                logger.info(combatiente.getNombre() + " inicia la batalla debido a su mayor alcance.");
             } else {
                 primerAtaque = false;
+                logger.info(vehiculoProfe.getNombre() + " inicia la batalla debido a su mayor alcance.");
             }
+
+            
 
             int turno = 1;
             while (combatiente.getPuntosVida() > 0 && vehiculoProfe.getPuntosVida() > 0) {
                 System.out.println("\nTurno " + turno);
 
                 if (primerAtaque = true) {
-
-                    logger.info(combatiente.getNombre() + " inicia la batalla debido a su mayor alcance.");
 
                     int ataqueNave = combatiente.atacar();
                     int danioRecibidoTanque = vehiculoProfe.defender(ataqueNave);
@@ -148,8 +150,6 @@ public class ConfiguracionBatalla {
                 }
                 
                 else if (primerAtaque = false) {
-
-                    logger.info(vehiculoProfe.getNombre() + " inicia la batalla debido a su mayor alcance.");
                     
                     int ataqueTanque = vehiculoProfe.atacar();
                     int danioRecibidoNave = combatiente.defender(ataqueTanque);
