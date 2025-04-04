@@ -7,6 +7,40 @@
     <groupId>es.pirategalaxy</groupId>
     <artifactId>pirategalaxymaven</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <build>
+<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.1</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
+         <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.miempresa.MiClase</mainClass> <!-- Cambia a tu clase principal -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+    </plugins>
+</build>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -14,6 +48,14 @@
     </properties>
 
     <dependencies>
+
+            <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.12</version>
+        </dependency>
+        <!-- Agregar más dependencias según sea necesario -->
+ 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -24,6 +66,19 @@
 			<artifactId>logback-classic</artifactId>
 			<version>1.5.6</version>
 		</dependency>
+
+     <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.1</version>
+            <scope>test</scope>
+        </dependency>
+
+                <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.9</version>
+        </dependency>
 
 	</dependencies>
 </project>

@@ -1,15 +1,15 @@
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\batalla\CampoDeBatalla.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\batalla\ConfiguracionBatalla.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\guerreros\Depredador.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\guerreros\Mantis.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\vehiculos\NaveDepredadora.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\vehiculos\TanqueMantis.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\clasespadres\Guerrero.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\clases\clasespadres\VehiculoGuerra.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\EqualScope.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyAtaqueDefensa.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyFuerzaResistencia.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyGuerreros.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyStats.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\interfaz\Tripulable.java
-C:\Users\Tardes\Documents\VIKTOR\Repositorios GITHUB\pirategalaxymaven\PirateGalaxyMaven\src\main\java\es\cursojava\Propuestas.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\batalla\CampoDeBatalla.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\batalla\ConfiguracionBatalla.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\guerreros\Depredador.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\guerreros\Mantis.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\vehiculos\NaveDepredadora.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\claseshijas\vehiculos\TanqueMantis.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\clasespadres\Guerrero.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\clases\clasespadres\VehiculoGuerra.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\EqualScope.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyAtaqueDefensa.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyFuerzaResistencia.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyGuerreros.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\excepciones\TooManyStats.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\interfaz\Tripulable.java
+C:\Users\Tardes.DESKTOP-4Q09SGH\Desktop\Curso Programación\Duban Luwin\VSC\PirateGalaxyMavenFinal\PirateGalaxyMaven\src\main\java\es\cursojava\Propuestas.java
