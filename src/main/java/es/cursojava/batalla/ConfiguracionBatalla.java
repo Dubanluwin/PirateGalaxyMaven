@@ -21,11 +21,6 @@ public class ConfiguracionBatalla {
 
     private static final Logger logger = LoggerFactory.getLogger(CampoDeBatalla.class);
 
-    private static final int maxDefensa = 10;
-    private static final int maxAtaque = 10;
-    private static final int maxGuerreros = 10;
-    private static final int maxHp = 1000;
-
     public static List<Guerrero> crearMantis() throws TooManyFuerzaResistencia, TooManyGuerreros {
 
         List<Guerrero> listaMantis = new CopyOnWriteArrayList<>();
@@ -94,8 +89,8 @@ public class ConfiguracionBatalla {
             List<Guerrero> mantis = ConfiguracionBatalla.crearMantis();
             List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores();
 
-            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 9, 2, "La Cazadora", "Depredador");
-            TanqueMantis tanqueMantis = new TanqueMantis(1000, 8, 6, "La Destructora", "Mantis");
+            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 8, 2, "La Cazadora", "Depredador");
+            TanqueMantis tanqueMantis = new TanqueMantis(1000, 4, 6, "La Destructora", "Mantis");
 
             logger.info("Guerreros en la Nave Depredadora antes de embarcar: "
                     + naveDepredadora.getListaGuerreros().size());

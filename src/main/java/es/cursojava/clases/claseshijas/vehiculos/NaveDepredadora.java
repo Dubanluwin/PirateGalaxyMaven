@@ -14,7 +14,6 @@ import es.cursojava.excepciones.TooManyHp;
 public class NaveDepredadora extends VehiculoGuerra {
 
     private static final Logger logger = LoggerFactory.getLogger(NaveDepredadora.class);
-    private boolean estadisticasModificadas = false;
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
@@ -37,38 +36,18 @@ public class NaveDepredadora extends VehiculoGuerra {
     }
 
     @Override
-    public int alcance() {
-        return super.alcance();
-    }
-
-    @Override
     public int atacar() {
-
-        int ataqueTotal = (int) (ataque * Math.random());
-        for (Guerrero guerrero : listaGuerreros) {
-            ataqueTotal += guerrero.getFuerza() * Math.random() * 0.5;
-        }
-
-        return ataqueTotal;
+        return super.atacar();
     }
 
     @Override
-    public int defender(int ataqueRecibido) {
+    public int defender(int ataqueEntrante) {
+        return super.defender(ataqueEntrante);
+    }
 
-        for (Guerrero guerrero : listaGuerreros) {
-            defensa += guerrero.apoyoDefensa();
-        }
-
-        int danho = ataqueRecibido - defensa;
-        if (danho > 0) {
-            puntosVida -= danho;
-        } else {
-            logger.info("La nave Depredadora bloqueo el ataque en este turno.");
-        }
-
-        int defensaTotal = defensa - danho;
-
-        return defensaTotal;
+    @Override
+    public int alcance() {
+        return (int) (Math.random() * 100);
     }
 
     @Override

@@ -6,9 +6,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import es.cursojava.clases.claseshijas.guerreros.Depredador;
+import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
+import es.cursojava.excepciones.TooManyFuerzaResistencia;
+import es.cursojava.excepciones.TooManyGuerreros;
 import es.cursojava.excepciones.TooManyHp;
 
 public class CampoDeBatalla {
@@ -20,7 +23,20 @@ public class CampoDeBatalla {
         List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores();
 
         try {
-            Depredador vehiculo = new Depredador(700, 8, 2, "FORD", "Vehiculo", "Pluton");
+
+            NaveDepredadora nave = new NaveDepredadora(1000, 6, 4, "LOXO", "Depredador");
+            try {
+                nave.embarcarGuerrero(nave, depredadores);
+                try {
+                    ConfiguracionBatalla.iniciarBatalla(nave);
+                } catch (TooManyFuerzaResistencia e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            } catch (TooManyGuerreros e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
 
         } catch (TooManyAtaqueDefensa e) {
             e.printStackTrace();

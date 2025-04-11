@@ -21,33 +21,23 @@ public class TanqueMantis extends VehiculoGuerra {
     }
 
     @Override
-    public int atacar() {
-
-        int ataqueTotal = (int) (ataque * Math.random());
-        for (Guerrero guerrero : listaGuerreros) {
-            ataqueTotal += guerrero.getFuerza() * Math.random() * 0.5;
+    public void embarcarGuerrero(VehiculoGuerra tanqueMantis, List<Guerrero> guerreros) throws TooManyGuerreros {
+        for (Guerrero guerrero : guerreros) {
+            if (!guerrero.getTipo().equalsIgnoreCase("Mantis")) {
+                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en el Tanque.");
+            }
         }
-
-        return ataqueTotal;
+        super.embarcarGuerrero(tanqueMantis, guerreros);
     }
 
     @Override
-    public int defender(int ataqueRecibido) {
+    public int atacar() {
+        return super.atacar();
+    }
 
-        for (Guerrero guerrero : listaGuerreros) {
-            defensa += guerrero.apoyoDefensa();
-        }
-
-        int danho = ataqueRecibido - defensa;
-        if (danho > 0) {
-            puntosVida -= danho;
-        } else {
-            logger.info("El Tanque Mantis bloqueo el ataque en este turno.");
-        }
-
-        int defensaTotal = defensa - danho;
-
-        return defensaTotal;
+    @Override
+    public int defender(int ataqueEntrante) {
+        return super.defender(ataqueEntrante);
     }
 
     @Override
@@ -58,16 +48,6 @@ public class TanqueMantis extends VehiculoGuerra {
     @Override
     public String toString() {
         return "Tanque Mantis []";
-    }
-
-    @Override
-    public void embarcarGuerrero(VehiculoGuerra tanqueMantis, List<Guerrero> guerreros) throws TooManyGuerreros {
-        for (Guerrero guerrero : guerreros) {
-            if (!guerrero.getTipo().equalsIgnoreCase("Mantis")) {
-                throw new IllegalArgumentException("Solo los guerreros de tipo Mantis pueden embarcar en el Tanque.");
-            }
-        }
-        super.embarcarGuerrero(tanqueMantis, guerreros);
     }
 
 }

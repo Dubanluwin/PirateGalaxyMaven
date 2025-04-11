@@ -2,6 +2,8 @@ package es.cursojava.clases.clasespadres;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -101,28 +103,38 @@ public abstract class VehiculoGuerra implements Tripulable {
     @Override
     public int atacar() {
 
-        int ataqueTotal = (int) (ataque * Math.random());
-        for (Guerrero guerrero : listaGuerreros) {
-            ataqueTotal += guerrero.apoyoAtaque();
-        }
+        Random random = new Random();
 
-        return ataqueTotal;
+        double factorVehiculo = random.nextDouble();
+        double ataqueVehiculo = ataque * factorVehiculo;
+
+        double factorGuerreros = random.nextDouble() * 0.5;
+        int sumaAtaqueGuerreros = 0;
+        for (Guerrero guerrero : listaGuerreros) {
+            sumaAtaqueGuerreros += guerrero.getFuerza();
+        }
+        double ataqueGuerreros = sumaAtaqueGuerreros * factorGuerreros;
+
+        return (int) Math.round(ataqueVehiculo + ataqueGuerreros);
     }
 
     @Override
-    public int defender(int ataqueRecibido) {
+    public int defender(int ataqueEntrante) {
+        Random random = new Random();
 
-        int defensaTotal = (int) (defensa * Math.random());
+        double factorVehiculo = random.nextDouble();
+        double defensaVehiculo = defensa * factorVehiculo;
+
+        double factorGuerreros = random.nextDouble() * 0.5;
+        int sumaResistenciaGuerreros = 0;
         for (Guerrero guerrero : listaGuerreros) {
-            defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
+            sumaResistenciaGuerreros += guerrero.getResistencia();
         }
+        double defensaGuerreros = sumaResistenciaGuerreros * factorGuerreros;
 
-        int danio = ataqueRecibido - defensaTotal;
-        if (danio > 0) {
-            puntosVida -= danio;
-        }
+        int defensaTotal = (int) Math.round(defensaVehiculo + defensaGuerreros);
 
-        return Math.max(danio, 0);
+        return defensaTotal;
     }
 
     @Override
