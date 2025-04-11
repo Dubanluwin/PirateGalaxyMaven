@@ -16,7 +16,6 @@ import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 import es.cursojava.excepciones.TooManyGuerreros;
 import es.cursojava.excepciones.TooManyHp;
-import es.cursojava.excepciones.TooManyStats;
 
 public class ConfiguracionBatalla {
 
@@ -27,7 +26,7 @@ public class ConfiguracionBatalla {
     private static final int maxGuerreros = 10;
     private static final int maxHp = 1000;
 
-    public static List<Guerrero> crearMantis(int numGuerreros) {
+    public static List<Guerrero> crearMantis() throws TooManyFuerzaResistencia, TooManyGuerreros {
 
         List<Guerrero> listaMantis = new CopyOnWriteArrayList<>();
 
@@ -57,15 +56,15 @@ public class ConfiguracionBatalla {
             listaMantis.add(mantis10);
 
         } catch (TooManyFuerzaResistencia e) {
-            e.getMessage();
-            e.printStackTrace();
+            throw new TooManyFuerzaResistencia(
+                    "La suma de la fuerza y la resistencia de cada guerrero Mantis no puede superar 10 puntos.");
         }
 
         return listaMantis;
 
     }
 
-    public static List<Guerrero> crearDepredadores(int numGuerreros) {
+    public static List<Guerrero> crearDepredadores() {
 
         List<Guerrero> listaDepredadores = new CopyOnWriteArrayList<>();
 
@@ -73,13 +72,14 @@ public class ConfiguracionBatalla {
 
         Depredador depredador;
 
-        for (int i = 0; i < numGuerreros; i++) {
+        for (int i = 0; i < 10; i++) {
 
             try {
                 depredador = new Depredador("Depredador " + i, "Depredador", 9 - i, 1 + i, "La Fortuna");
                 listaDepredadores.add(depredador);
             } catch (TooManyFuerzaResistencia e) {
-                e.printStackTrace();
+                logger.info(
+                        "La suma de la fuerza y la resistencia de cada guerrero Mantis no puede superar 10 puntos.");
             }
 
         }
@@ -88,14 +88,14 @@ public class ConfiguracionBatalla {
 
     }
 
-    public static void iniciarBatalla(VehiculoGuerra vehiculoProfe) {
+    public static void iniciarBatalla(VehiculoGuerra vehiculoProfe) throws TooManyHp, TooManyFuerzaResistencia {
 
         try {
-            List<Guerrero> mantis = ConfiguracionBatalla.crearMantis(10);
-            List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores(10);
+            List<Guerrero> mantis = ConfiguracionBatalla.crearMantis();
+            List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores();
 
-            NaveDepredadora naveDepredadora = new NaveDepredadora(10000, 5555, 5, "Mutiladora", "Depredador");
-            TanqueMantis tanqueMantis = new TanqueMantis(10000, 5, 5000, "Aniquiladora", "Mantis");
+            NaveDepredadora naveDepredadora = new NaveDepredadora(100000, 5555, 5, "Mutiladora", "Depredador");
+            TanqueMantis tanqueMantis = new TanqueMantis(100000, 5, 5000, "Aniquiladora", "Mantis");
 
             logger.info("Guerreros en la Nave Depredadora antes de embarcar: "
                     + naveDepredadora.getListaGuerreros().size());
@@ -115,22 +115,6 @@ public class ConfiguracionBatalla {
             logger.info("Alcance de " + tanqueMantis.getNombre() + ": " + alcanceTanque);
 
             VehiculoGuerra combatiente = preparacionBatalla(naveDepredadora, tanqueMantis);
-
-            if (vehiculoProfe.getAtaque() > maxAtaque || vehiculoProfe.getDefensa() > maxDefensa) {
-                throw new TooManyAtaqueDefensa("El vehiculo que has creado tiene estadisticas no validas, tramposo!!!");
-            }
-
-            if (vehiculoProfe.getListaGuerreros().size() > maxGuerreros) {
-                throw new TooManyGuerreros("Solo se admiten 10 guerreros por nave, tramposo!!!");
-            }
-
-            if (vehiculoProfe.getListaGuerreros().size() < 0) {
-                throw new TooManyGuerreros("El vehiculo de guerra no tiene guereros!!!");
-            }
-
-            if (vehiculoProfe.getPuntosVida() > maxHp) {
-                throw new TooManyHp("La nave no puede tener mas de 1000 puntos de vida!!!");
-            }
 
             logger.info(
                     "Comienza la batalla entre " + combatiente.getNombre() + " y " + vehiculoProfe.getNombre() + "!");
@@ -172,27 +156,14 @@ public class ConfiguracionBatalla {
             logger.info("Fin de la batalla!");
 
         } catch (TooManyAtaqueDefensa e) {
-            logger.error("Error al crear los vehículos de guerra: " + e.getMessage());
+            logger.error("Error al crear los vehículos de guerra: ");
         } catch (TooManyGuerreros e) {
-            logger.error("La embarcación de los guerreros no puede superar la cantidad de 10 candidatos.");
-        } catch (TooManyHp e) {
-            logger.error("Puntos de vida no admitidos para el combate!");
+            logger.error("La embarcación de los guerreros no puede superar la cantidad de 10 guerreros.");
         }
     }
 
     private static VehiculoGuerra preparacionBatalla(VehiculoGuerra tanqueMantis, VehiculoGuerra naveDepredadora) {
-        // Determina quién tiene mayor alcance 1:
-        // VehiculoGuerra atacante = (alcanceNave >= alcanceTanque) ? naveDepredadora :
-        // tanqueMantis;
-        // if (alcanceNaveEnemiga > atacante.alcance()) {
-        // logger.info("La nave enemiga tiene mayor alcance y ataca primero.");
-        // ConfiguracionBatalla.iniciarBatalla(naveEnemiga, atacante);
-        // } else {
-        // logger.info(atacante.getNombre() + " tiene mayor alcance y ataca primero.");
-        // ConfiguracionBatalla.iniciarBatalla(atacante, naveEnemiga);
-        // }
 
-        // Método alcance definido
         VehiculoGuerra combatiente;
         if (naveDepredadora.alcance() >= tanqueMantis.alcance()) {
             combatiente = naveDepredadora;

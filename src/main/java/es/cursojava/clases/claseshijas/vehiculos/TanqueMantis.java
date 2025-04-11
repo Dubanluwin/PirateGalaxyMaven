@@ -9,6 +9,7 @@ import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
+import es.cursojava.excepciones.TooManyHp;
 
 public class TanqueMantis extends VehiculoGuerra {
 
@@ -17,7 +18,7 @@ public class TanqueMantis extends VehiculoGuerra {
 
     public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo,
             List<Guerrero> listaGuerreros)
-            throws TooManyAtaqueDefensa {
+            throws TooManyAtaqueDefensa, TooManyHp {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
     }
 

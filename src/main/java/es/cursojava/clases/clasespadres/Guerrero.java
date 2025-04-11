@@ -63,7 +63,7 @@ public abstract class Guerrero {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    private void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
@@ -71,7 +71,7 @@ public abstract class Guerrero {
         return fuerza;
     }
 
-    public void setFuerza(int fuerza) {
+    private void setFuerza(int fuerza) {
         this.fuerza = fuerza;
     }
 
@@ -79,7 +79,7 @@ public abstract class Guerrero {
         return resistencia;
     }
 
-    public void setResistencia(int resistencia) {
+    private void setResistencia(int resistencia) {
         this.resistencia = resistencia;
     }
 

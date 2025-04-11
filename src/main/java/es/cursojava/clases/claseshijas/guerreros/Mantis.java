@@ -12,14 +12,12 @@ public class Mantis extends Guerrero {
 
     private String planeta;
 
-    // Constructor
     public Mantis(String nombre, String tipo, int fuerza, int resistencia, String planeta)
             throws TooManyFuerzaResistencia {
         super(nombre, "Mantis", fuerza, resistencia);
         this.planeta = planeta;
     }
 
-    // Getters y Setters
     public String getPlaneta() {
         return planeta;
     }
@@ -28,11 +26,11 @@ public class Mantis extends Guerrero {
         this.planeta = planeta;
     }
 
-    // toString
     @Override
     public String toString() {
 
-        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = " + getResistencia()
+        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = "
+                + getResistencia()
                 + ", planeta = " + planeta;
 
         return mensaje;

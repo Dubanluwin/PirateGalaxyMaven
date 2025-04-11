@@ -9,6 +9,7 @@ import es.cursojava.clases.clasespadres.Guerrero;
 import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
+import es.cursojava.excepciones.TooManyHp;
 
 public class NaveDepredadora extends VehiculoGuerra {
 
@@ -17,22 +18,28 @@ public class NaveDepredadora extends VehiculoGuerra {
 
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
             List<Guerrero> listaGuerreros)
-            throws TooManyAtaqueDefensa {
+            throws TooManyAtaqueDefensa, TooManyHp {
         super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
     }
 
-    public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo) throws TooManyAtaqueDefensa {
+    public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo)
+            throws TooManyAtaqueDefensa {
         super(puntosVida, ataque, defensa, nombre, tipo);
     }
 
     @Override
     public void embarcarGuerrero(VehiculoGuerra naveDepredadora, List<Guerrero> guerreros) throws TooManyGuerreros {
-        for (Guerrero guerrero : guerreros) {
-            if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
-                throw new IllegalArgumentException("Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
+        try {
+            for (Guerrero guerrero : guerreros) {
+                if (!guerrero.getTipo().equalsIgnoreCase("Depredador")) {
+                    throw new IllegalArgumentException(
+                            "Solo los guerreros de tipo Depredador pueden embarcar en la NaveDepredadora.");
+                }
             }
+            super.embarcarGuerrero(naveDepredadora, guerreros);
+        } catch (TooManyGuerreros e) {
+            throw new TooManyGuerreros("No se pueden embarcar mas de 10 guerreros por vehiculo.");
         }
-        super.embarcarGuerrero(naveDepredadora, guerreros);
     }
 
     @Override
@@ -48,8 +55,9 @@ public class NaveDepredadora extends VehiculoGuerra {
         if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
             ataque -= 2;
             defensa += 4;
-            estadisticasModificadas = true; 
-            // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se modifica una vez por batalla.
+            estadisticasModificadas = true;
+            // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se
+            // modifica una vez por batalla.
         }
 
         int ataqueTotal = (int) (ataque * Math.random());

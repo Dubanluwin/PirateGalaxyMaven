@@ -2,7 +2,6 @@ package es.cursojava.clases.clasespadres;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +11,7 @@ import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.claseshijas.vehiculos.TanqueMantis;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyGuerreros;
+import es.cursojava.excepciones.TooManyHp;
 import es.cursojava.interfaz.Tripulable;
 
 public abstract class VehiculoGuerra implements Tripulable {
@@ -27,26 +27,31 @@ public abstract class VehiculoGuerra implements Tripulable {
 
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo,
             List<Guerrero> listaGuerreros)
-            throws TooManyAtaqueDefensa {
+            throws TooManyAtaqueDefensa, TooManyHp {
 
         try {
-
             controlarAtaqueDefensa(ataque, defensa);
-
-            this.puntosVida = puntosVida;
+            controlarPuntosVida(puntosVida);
             this.nombre = nombre;
             this.tipo = tipo;
             this.listaGuerreros = listaGuerreros;
+
         } catch (TooManyAtaqueDefensa e) {
             throw new TooManyAtaqueDefensa(
-                    "La suma del ataque y la defensa de los guerreros no puede ser mayor de 10 puntos");
-
+                    "La suma del ataque y la defensa de los guerreros no puede ser mayor de 10 puntos.");
+        } catch (TooManyHp e) {
+            throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
         }
-        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new
-        // ArrayList<>();
     }
 
-    // Constructor sin la Lista de Guerreros.
+    private void controlarPuntosVida(int puntosVida) throws TooManyHp {
+
+        if (puntosVida < 0 || puntosVida > 1000) {
+            throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
+        }
+        this.puntosVida = puntosVida;
+    }
+
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
         this.puntosVida = puntosVida;
         this.ataque = ataque;
@@ -59,7 +64,7 @@ public abstract class VehiculoGuerra implements Tripulable {
         return puntosVida;
     }
 
-    public void setPuntosVida(int puntosVida) {
+    private void setPuntosVida(int puntosVida) {
         this.puntosVida = puntosVida;
     }
 
@@ -67,7 +72,7 @@ public abstract class VehiculoGuerra implements Tripulable {
         return ataque;
     }
 
-    public void setAtaque(int ataque) {
+    private void setAtaque(int ataque) {
         this.ataque = ataque;
     }
 
@@ -75,7 +80,7 @@ public abstract class VehiculoGuerra implements Tripulable {
         return defensa;
     }
 
-    public void setDefensa(int defensa) {
+    private void setDefensa(int defensa) {
         this.defensa = defensa;
     }
 
@@ -91,17 +96,15 @@ public abstract class VehiculoGuerra implements Tripulable {
         return listaGuerreros;
     }
 
-    public void setListaGuerreros(List<Guerrero> listaGuerreros) {
+    private void setListaGuerreros(List<Guerrero> listaGuerreros) {
         this.listaGuerreros = listaGuerreros;
-        // this.listaGuerreros = (listaGuerreros != null) ? listaGuerreros : new
-        // ArrayList<>();
     }
 
     public String getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    private void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
