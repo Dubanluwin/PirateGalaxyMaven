@@ -25,8 +25,7 @@ public abstract class VehiculoGuerra implements Tripulable {
     protected String tipo;
     protected List<Guerrero> listaGuerreros = new ArrayList<>();
 
-    public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros)
+    public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
 
         try {
@@ -34,7 +33,6 @@ public abstract class VehiculoGuerra implements Tripulable {
             controlarPuntosVida(puntosVida);
             this.nombre = nombre;
             this.tipo = tipo;
-            this.listaGuerreros = listaGuerreros;
 
         } catch (TooManyAtaqueDefensa e) {
             throw new TooManyAtaqueDefensa(
@@ -50,14 +48,6 @@ public abstract class VehiculoGuerra implements Tripulable {
             throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
         }
         this.puntosVida = puntosVida;
-    }
-
-    public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
-        this.puntosVida = puntosVida;
-        this.ataque = ataque;
-        this.defensa = defensa;
-        this.nombre = nombre;
-        this.tipo = tipo;
     }
 
     public int getPuntosVida() {

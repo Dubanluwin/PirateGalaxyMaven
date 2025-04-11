@@ -94,8 +94,8 @@ public class ConfiguracionBatalla {
             List<Guerrero> mantis = ConfiguracionBatalla.crearMantis();
             List<Guerrero> depredadores = ConfiguracionBatalla.crearDepredadores();
 
-            NaveDepredadora naveDepredadora = new NaveDepredadora(100000, 5555, 5, "Mutiladora", "Depredador");
-            TanqueMantis tanqueMantis = new TanqueMantis(100000, 5, 5000, "Aniquiladora", "Mantis");
+            NaveDepredadora naveDepredadora = new NaveDepredadora(1000, 9, 2, "La Cazadora", "Depredador");
+            TanqueMantis tanqueMantis = new TanqueMantis(1000, 8, 6, "La Destructora", "Mantis");
 
             logger.info("Guerreros en la Nave Depredadora antes de embarcar: "
                     + naveDepredadora.getListaGuerreros().size());

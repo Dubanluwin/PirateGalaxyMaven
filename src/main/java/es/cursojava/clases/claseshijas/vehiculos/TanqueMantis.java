@@ -14,26 +14,14 @@ import es.cursojava.excepciones.TooManyHp;
 public class TanqueMantis extends VehiculoGuerra {
 
     private static final Logger logger = LoggerFactory.getLogger(TanqueMantis.class);
-    private boolean ataqueModificado = false;
 
-    public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros)
+    public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
-        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
-    }
-
-    public TanqueMantis(int puntosVida, int ataque, int defensa, String nombre, String tipo) {
         super(puntosVida, ataque, defensa, nombre, tipo);
     }
 
     @Override
     public int atacar() {
-        double probabilidad = Math.random();
-
-        if (!ataqueModificado && puntosVida <= 500 && probabilidad < 0.5) {
-            ataque += 10;
-            ataqueModificado = true;
-        }
 
         int ataqueTotal = (int) (ataque * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
@@ -45,17 +33,21 @@ public class TanqueMantis extends VehiculoGuerra {
 
     @Override
     public int defender(int ataqueRecibido) {
-        int defensaTotal = (int) (defensa * Math.random());
+
         for (Guerrero guerrero : listaGuerreros) {
-            defensaTotal += guerrero.getResistencia() * Math.random() * 0.5;
+            defensa += guerrero.apoyoDefensa();
         }
 
-        int danio = ataqueRecibido - defensaTotal;
-        if (danio > 0) {
-            puntosVida -= danio;
+        int danho = ataqueRecibido - defensa;
+        if (danho > 0) {
+            puntosVida -= danho;
+        } else {
+            logger.info("El Tanque Mantis bloqueo el ataque en este turno.");
         }
 
-        return Math.max(danio, 0);
+        int defensaTotal = defensa - danho;
+
+        return defensaTotal;
     }
 
     @Override

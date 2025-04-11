@@ -16,14 +16,8 @@ public class NaveDepredadora extends VehiculoGuerra {
     private static final Logger logger = LoggerFactory.getLogger(NaveDepredadora.class);
     private boolean estadisticasModificadas = false;
 
-    public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo,
-            List<Guerrero> listaGuerreros)
-            throws TooManyAtaqueDefensa, TooManyHp {
-        super(puntosVida, ataque, defensa, nombre, tipo, listaGuerreros);
-    }
-
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo)
-            throws TooManyAtaqueDefensa {
+            throws TooManyAtaqueDefensa, TooManyHp {
         super(puntosVida, ataque, defensa, nombre, tipo);
     }
 
@@ -49,20 +43,10 @@ public class NaveDepredadora extends VehiculoGuerra {
 
     @Override
     public int atacar() {
-        double probabilidad = Math.random();
-
-        // Solo modificamos las estadísticas una vez
-        if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
-            ataque -= 2;
-            defensa += 4;
-            estadisticasModificadas = true;
-            // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se
-            // modifica una vez por batalla.
-        }
 
         int ataqueTotal = (int) (ataque * Math.random());
         for (Guerrero guerrero : listaGuerreros) {
-            ataqueTotal += guerrero.apoyoAtaque();
+            ataqueTotal += guerrero.getFuerza() * Math.random() * 0.5;
         }
 
         return ataqueTotal;
@@ -70,17 +54,21 @@ public class NaveDepredadora extends VehiculoGuerra {
 
     @Override
     public int defender(int ataqueRecibido) {
-        int defensaTotal = (int) (defensa * Math.random());
+
         for (Guerrero guerrero : listaGuerreros) {
-            defensaTotal += guerrero.apoyoDefensa();
+            defensa += guerrero.apoyoDefensa();
         }
 
-        int danio = ataqueRecibido - defensaTotal;
-        if (danio > 0) {
-            puntosVida -= danio;
+        int danho = ataqueRecibido - defensa;
+        if (danho > 0) {
+            puntosVida -= danho;
+        } else {
+            logger.info("La nave Depredadora bloqueo el ataque en este turno.");
         }
 
-        return Math.max(danio, 0);
+        int defensaTotal = defensa - danho;
+
+        return defensaTotal;
     }
 
     @Override
