@@ -4,11 +4,8 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import es.cursojava.clases.claseshijas.guerreros.Depredador;
 import es.cursojava.clases.claseshijas.vehiculos.NaveDepredadora;
 import es.cursojava.clases.clasespadres.Guerrero;
-import es.cursojava.clases.clasespadres.VehiculoGuerra;
 import es.cursojava.excepciones.TooManyAtaqueDefensa;
 import es.cursojava.excepciones.TooManyFuerzaResistencia;
 import es.cursojava.excepciones.TooManyGuerreros;
@@ -24,17 +21,16 @@ public class CampoDeBatalla {
 
         try {
 
-            NaveDepredadora nave = new NaveDepredadora(1000, 6, 4, "LOXO", "Depredador");
+            NaveDepredadora nave = new NaveDepredadora(1000, 5, 5, "La Naranja Mecanica", "Depredador");
+
             try {
                 nave.embarcarGuerrero(nave, depredadores);
                 try {
                     ConfiguracionBatalla.iniciarBatalla(nave);
                 } catch (TooManyFuerzaResistencia e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
             } catch (TooManyGuerreros e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
 

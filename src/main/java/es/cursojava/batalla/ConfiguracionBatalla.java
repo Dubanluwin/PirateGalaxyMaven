@@ -159,6 +159,19 @@ public class ConfiguracionBatalla {
 
     private static VehiculoGuerra preparacionBatalla(VehiculoGuerra tanqueMantis, VehiculoGuerra naveDepredadora) {
 
+                // Determina quién tiene mayor alcance 1:
+        // VehiculoGuerra atacante = (alcanceNave >= alcanceTanque) ? naveDepredadora :
+        // tanqueMantis;
+        // if (alcanceNaveEnemiga > atacante.alcance()) {
+        // logger.info("La nave enemiga tiene mayor alcance y ataca primero.");
+        // ConfiguracionBatalla.iniciarBatalla(naveEnemiga, atacante);
+        // } else {
+        // logger.info(atacante.getNombre() + " tiene mayor alcance y ataca primero.");
+        // ConfiguracionBatalla.iniciarBatalla(atacante, naveEnemiga);
+        // }
+
+        // Método alcance definido
+
         VehiculoGuerra combatiente;
         if (naveDepredadora.alcance() >= tanqueMantis.alcance()) {
             combatiente = naveDepredadora;

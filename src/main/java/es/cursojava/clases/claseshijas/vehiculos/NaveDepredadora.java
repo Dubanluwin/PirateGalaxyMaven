@@ -18,6 +18,7 @@ public class NaveDepredadora extends VehiculoGuerra {
     public NaveDepredadora(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
         super(puntosVida, ataque, defensa, nombre, tipo);
+        
     }
 
     @Override
@@ -41,8 +42,8 @@ public class NaveDepredadora extends VehiculoGuerra {
     }
 
     @Override
-    public int defender(int ataqueEntrante) {
-        return super.defender(ataqueEntrante);
+    public int defender(int ataqueRecibido) {
+        return super.defender(ataqueRecibido);
     }
 
     @Override

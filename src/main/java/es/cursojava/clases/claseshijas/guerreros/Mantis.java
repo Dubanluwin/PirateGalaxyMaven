@@ -14,7 +14,7 @@ public class Mantis extends Guerrero {
 
     public Mantis(String nombre, String tipo, int fuerza, int resistencia, String planeta)
             throws TooManyFuerzaResistencia {
-        super(nombre, "Mantis", fuerza, resistencia);
+        super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
 
@@ -24,16 +24,6 @@ public class Mantis extends Guerrero {
 
     public void setPlaneta(String planeta) {
         this.planeta = planeta;
-    }
-
-    @Override
-    public String toString() {
-
-        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = "
-                + getResistencia()
-                + ", planeta = " + planeta;
-
-        return mensaje;
     }
 
     @Override
@@ -52,6 +42,16 @@ public class Mantis extends Guerrero {
         int sumaResistenciaMantis = getResistencia();
 
         return (int) (sumaResistenciaMantis * factorDefensaMantis);
+    }
+
+    @Override
+    public String toString() {
+
+        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = "
+                + getResistencia()
+                + ", planeta = " + planeta;
+
+        return mensaje;
     }
 
 }

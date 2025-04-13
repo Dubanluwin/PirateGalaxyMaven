@@ -26,6 +26,7 @@ public abstract class VehiculoGuerra implements Tripulable {
     protected String nombre;
     protected String tipo;
     protected List<Guerrero> listaGuerreros = new ArrayList<>();
+    private boolean estadisticasModificadas;
 
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
@@ -39,17 +40,7 @@ public abstract class VehiculoGuerra implements Tripulable {
         } catch (TooManyAtaqueDefensa e) {
             throw new TooManyAtaqueDefensa(
                     "La suma del ataque y la defensa de los guerreros no puede ser mayor de 10 puntos.");
-        } catch (TooManyHp e) {
-            throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
-        }
-    }
-
-    private void controlarPuntosVida(int puntosVida) throws TooManyHp {
-
-        if (puntosVida < 0 || puntosVida > 1000) {
-            throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
-        }
-        this.puntosVida = puntosVida;
+        } 
     }
 
     public int getPuntosVida() {
@@ -101,68 +92,69 @@ public abstract class VehiculoGuerra implements Tripulable {
     }
 
     @Override
-    public int atacar() {
-
-        Random random = new Random();
-
-        double factorVehiculo = random.nextDouble();
-        double ataqueVehiculo = ataque * factorVehiculo;
-
-        double factorGuerreros = random.nextDouble() * 0.5;
-        int sumaAtaqueGuerreros = 0;
-        for (Guerrero guerrero : listaGuerreros) {
-            sumaAtaqueGuerreros += guerrero.getFuerza();
-        }
-        double ataqueGuerreros = sumaAtaqueGuerreros * factorGuerreros;
-
-        return (int) Math.round(ataqueVehiculo + ataqueGuerreros);
-    }
-
-    @Override
-    public int defender(int ataqueEntrante) {
-        Random random = new Random();
-
-        double factorVehiculo = random.nextDouble();
-        double defensaVehiculo = defensa * factorVehiculo;
-
-        double factorGuerreros = random.nextDouble() * 0.5;
-        int sumaResistenciaGuerreros = 0;
-        for (Guerrero guerrero : listaGuerreros) {
-            sumaResistenciaGuerreros += guerrero.getResistencia();
-        }
-        double defensaGuerreros = sumaResistenciaGuerreros * factorGuerreros;
-
-        int defensaTotal = (int) Math.round(defensaVehiculo + defensaGuerreros);
-
-        return defensaTotal;
-    }
-
-    @Override
     public int alcance() {
 
         return (int) (Math.random() * 100);
     }
 
-    @Override
-    public String toString() {
-        return "VehiculoGuerra [puntosVida=" + puntosVida + ", ataque=" + ataque + ", defensa=" + defensa + ", nombre="
-                + nombre + ", tipo=" + tipo + ", listaGuerreros=" + listaGuerreros + "]";
+    private void controlarPuntosVida(int puntosVida) throws TooManyHp {
+
+        if (puntosVida > 1000) {
+            throw new TooManyHp("La nave no puede superar los 1000 puntos de vida.");
+        } else if (puntosVida < 0){
+            throw new TooManyHp("La nave no puede tener puntos de vida negativos.");
+        }
+        
+        this.puntosVida = puntosVida;
+    }
+
+    public int atacar() { {
+
+            double probabilidad = Math.random();
+    
+            // Solo modificamos las estadísticas una vez
+            if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
+                ataque -= 2;
+                defensa += 4;
+                estadisticasModificadas = true;
+                // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se
+                // modifica una vez por batalla.
+            }
+    
+            int ataqueTotal = (int) (ataque * Math.random());
+            for (Guerrero guerrero : listaGuerreros) {
+                ataqueTotal += guerrero.apoyoAtaque();
+            }
+    
+            return ataqueTotal;
+        }
+    }
+
+ public int defender(int ataqueRecibido) {
+        int defensaTotal = (int) (defensa * Math.random());
+        for (Guerrero guerrero : listaGuerreros) {
+            defensaTotal += guerrero.apoyoDefensa();
+        }
+
+        int danio = ataqueRecibido - defensaTotal;
+        if (danio > 0) {
+            puntosVida -= danio;
+        }
+
+        return Math.max(danio, 0);
     }
 
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
 
         if (ataque < 0 || defensa < 0) {
-            throw new TooManyAtaqueDefensa("Los valores de ataque y defensa no pueden ser negativos.");
-        }
+            throw new TooManyAtaqueDefensa("Los valores de ataque o la defensa no pueden ser negativos.");
 
-        if (ataque + defensa > 10) {
+        }if (ataque + defensa > 10) {
             this.ataque = 5;
             this.defensa = 5;
-            logger.info("\n Reestableciendo valores por defecto..." +
+            logger.info("\n La suma de la fuerza y la defensa del vehiculo no puede ser mayor de 10. Reestableciendo valores por defecto..." +
                     "\n Defensa = " + this.defensa +
                     "\n Ataque = " + this.ataque);
-
-            throw new TooManyAtaqueDefensa("Los valores de ataque y defensa no son válidos para este combate.");
         }
 
         this.ataque = ataque;
@@ -204,6 +196,11 @@ public abstract class VehiculoGuerra implements Tripulable {
             logger.info("Los guerreos son de tipo: " + guerrerox.getTipo() + " y su valores de fuerza: "
                     + guerrerox.getFuerza() + guerrerox.getResistencia());
         }
+    }
 
+    @Override
+    public String toString() {
+        return "VehiculoGuerra [puntosVida=" + puntosVida + ", ataque=" + ataque + ", defensa=" + defensa + ", nombre="
+                + nombre + ", tipo=" + tipo + ", listaGuerreros=" + listaGuerreros + "]";
     }
 }

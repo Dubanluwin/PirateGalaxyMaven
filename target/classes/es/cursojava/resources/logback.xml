@@ -1,0 +1,24 @@
+<configuration>
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+
+<!-- Configuración para escribir en un fichero -->
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <!-- Ruta y nombre del fichero de logs. Es relativo al directorio de trabajo -->
+    <file>logs/app.log</file>
+    <!-- Si el fichero ya existe, se añadirán nuevos logs al final -->
+    <append>true</append>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="DEBUG">
+    <appender-ref ref="CONSOLE" />
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>

@@ -14,7 +14,7 @@ public class Depredador extends Guerrero {
 
     public Depredador(String nombre, String tipo, int fuerza, int resistencia, String planeta)
             throws TooManyFuerzaResistencia {
-        super(nombre, "Depredador", fuerza, resistencia);
+        super(nombre, tipo, fuerza, resistencia);
         this.planeta = planeta;
     }
 
@@ -24,15 +24,6 @@ public class Depredador extends Guerrero {
 
     public void setPlaneta(String planeta) {
         this.planeta = planeta;
-    }
-
-    @Override
-    public String toString() {
-
-        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = " + getResistencia()
-                + ", planeta = " + planeta;
-
-        return mensaje;
     }
 
     @Override
@@ -51,6 +42,15 @@ public class Depredador extends Guerrero {
         int sumaResistenciaDepredador = getResistencia();
 
         return (int) (sumaResistenciaDepredador * factorDefensaDepredador);
+    }
+
+    @Override
+    public String toString() {
+
+        String mensaje = "\n" + getNombre() + ", " + getTipo() + ", fuerza = " + getFuerza() + ", resistencia = " + getResistencia()
+                + ", planeta = " + planeta;
+
+        return mensaje;
     }
 
 }
