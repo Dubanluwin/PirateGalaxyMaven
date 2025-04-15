@@ -108,40 +108,46 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.puntosVida = puntosVida;
     }
 
-    public int atacar() { {
-
-            double probabilidad = Math.random();
+    public int atacar() {
+        double probabilidad = Math.random();
     
-            // Solo modificamos las estadísticas una vez
-            if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
-                ataque -= 2;
-                defensa += 4;
-                estadisticasModificadas = true;
-                // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se
-                // modifica una vez por batalla.
-            }
-    
-            int ataqueTotal = (int) (ataque * Math.random());
-            for (Guerrero guerrero : listaGuerreros) {
-                ataqueTotal += guerrero.apoyoAtaque();
-            }
-    
-            return ataqueTotal;
+        // Solo modificamos las estadísticas una vez
+        if (!estadisticasModificadas && puntosVida <= 650 && probabilidad < 0.5) {
+            ataque -= 2;
+            defensa += 4;
+            estadisticasModificadas = true;
+            // Marcamos que ya se realizó el ajuste. Así nos aseguraremos de que sólo se
+            // modifica una vez por batalla.
         }
+    
+        int ataqueBase = (int) (ataque * (0.5 + Math.random() / 2));
+    
+        int ataqueTotal = ataqueBase;
+        for (Guerrero guerrero : listaGuerreros) {
+            ataqueTotal += guerrero.apoyoAtaque();
+        }
+    
+        return ataqueTotal;
     }
 
- public int defender(int ataqueRecibido) {
-        int defensaTotal = (int) (defensa * Math.random());
+    public int defender(int ataqueRecibido) {
+
+        int defensaBase = (int) (defensa * (0.5 + Math.random() / 2));
+    
+        int defensaTotal = defensaBase;
         for (Guerrero guerrero : listaGuerreros) {
             defensaTotal += guerrero.apoyoDefensa();
         }
-
+    
         int danio = ataqueRecibido - defensaTotal;
+    
+        // He cambio el Math.max por un condicional
         if (danio > 0) {
             puntosVida -= danio;
+            return danio;
+        } else {
+            return 0;
         }
-
-        return Math.max(danio, 0);
     }
 
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
