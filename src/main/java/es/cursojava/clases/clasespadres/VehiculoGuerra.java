@@ -28,6 +28,11 @@ public abstract class VehiculoGuerra implements Tripulable {
     protected List<Guerrero> listaGuerreros = new ArrayList<>();
     private boolean estadisticasModificadas;
 
+    // VIK: he agregado nuevos atributos.
+    private int ultimaDefensa;
+    private int ultimoDanioRecibido;
+    // = = = = = = = = = = = = = = = = = =
+
     public VehiculoGuerra(int puntosVida, int ataque, int defensa, String nombre, String tipo)
             throws TooManyAtaqueDefensa, TooManyHp {
 
@@ -91,6 +96,17 @@ public abstract class VehiculoGuerra implements Tripulable {
         this.tipo = tipo;
     }
 
+    // VIK: he agregado nuevos métodos para obtener los valores de la última
+    // defensa y el último daño recibido.
+    public int getUltimaDefensa() {
+        return ultimaDefensa;
+    }
+    
+    public int getUltimoDanioRecibido() {
+        return ultimoDanioRecibido;
+    }
+    // = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
     @Override
     public int alcance() {
 
@@ -130,8 +146,29 @@ public abstract class VehiculoGuerra implements Tripulable {
         return ataqueTotal;
     }
 
-    public int defender(int ataqueRecibido) {
+    // public int defender(int ataqueRecibido) {
 
+    //     int defensaBase = (int) (defensa * (0.5 + Math.random() / 2));
+    
+    //     int defensaTotal = defensaBase;
+    //     for (Guerrero guerrero : listaGuerreros) {
+    //         defensaTotal += guerrero.apoyoDefensa();
+    //     }
+    
+    //     int danio = ataqueRecibido - defensaTotal;
+    
+    //     // He cambio el Math.max por un condicional
+    //     if (danio > 0) {
+    //         puntosVida -= danio;
+    //         return danio;
+    //     } else {
+    //         return 0;
+    //     }
+    // }
+
+    // VIK: he modificado el método defender para que devuelva el daño recibido y no
+    // el daño total. Además, he agregado un condicional para que no se pueda recibir daño negativo.
+    public int defender(int ataqueRecibido) {
         int defensaBase = (int) (defensa * (0.5 + Math.random() / 2));
     
         int defensaTotal = defensaBase;
@@ -139,16 +176,19 @@ public abstract class VehiculoGuerra implements Tripulable {
             defensaTotal += guerrero.apoyoDefensa();
         }
     
-        int danio = ataqueRecibido - defensaTotal;
+        ultimaDefensa = defensaTotal;
     
-        // He cambio el Math.max por un condicional
+        int danio = ataqueRecibido - defensaTotal;
         if (danio > 0) {
             puntosVida -= danio;
+            ultimoDanioRecibido = danio;
             return danio;
         } else {
+            ultimoDanioRecibido = 0;
             return 0;
         }
     }
+    // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
     protected void controlarAtaqueDefensa(int ataque, int defensa) throws TooManyAtaqueDefensa {
 

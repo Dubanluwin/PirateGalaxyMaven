@@ -183,27 +183,81 @@ public class ConfiguracionBatalla {
         return combatiente;
     }
 
+    // VIK: añadido nuevo método para mostrar la barra de vida.
+    private static String barraVida(int puntosVida) {
+        final int VIDA_MAXIMA = 1000;
+        final int LONGITUD_BARRA = 20;
+    
+        int bloques = Math.max(0, Math.min(LONGITUD_BARRA, puntosVida / (VIDA_MAXIMA / LONGITUD_BARRA)));
+        int vacios = LONGITUD_BARRA - bloques;
+    
+        StringBuilder barra = new StringBuilder("[");
+        for (int i = 0; i < bloques; i++) {
+            barra.append("#"); // Vida restante
+        }
+        for (int i = 0; i < vacios; i++) {
+            barra.append("-"); // Vida perdida
+        }
+        barra.append("] ");
+    
+        int porcentaje = (int) ((puntosVida / (double) VIDA_MAXIMA) * 100);
+        barra.append(puntosVida).append(" PV (").append(porcentaje).append("%)");
+    
+        return barra.toString();
+    }
+
+    // private static void ataqueDeNave(VehiculoGuerra combatiente, VehiculoGuerra vehiculoProfe) {
+    //     int ataqueNave = combatiente.atacar();
+    //     int danioRecibidoTanque = vehiculoProfe.defender(ataqueNave);
+    //     logger.info(combatiente.getNombre() + " ataca con " + ataqueNave + " de danio. | " + vehiculoProfe.getNombre()
+    //             + " recibe " + danioRecibidoTanque + " de danio.");
+
+    //     if (vehiculoProfe.getPuntosVida() <= 0) {
+    //         logger.info(vehiculoProfe.getNombre() + " ha sido destruido - " + combatiente.getNombre()
+    //                 + " gana la batalla!");
+    //     }
+    // }
+
+    // VIK: He cambiado el método ataqueDeNave para que imprima el resultado de la batalla.
     private static void ataqueDeNave(VehiculoGuerra combatiente, VehiculoGuerra vehiculoProfe) {
-        int ataqueNave = combatiente.atacar();
-        int danioRecibidoTanque = vehiculoProfe.defender(ataqueNave);
-        logger.info(combatiente.getNombre() + " ataca con " + ataqueNave + " de danio. | " + vehiculoProfe.getNombre()
-                + " recibe " + danioRecibidoTanque + " de danio.");
-
+        int ataque = combatiente.atacar();
+        vehiculoProfe.defender(ataque);
+    
+        logger.info(">>> " + combatiente.getNombre() + " ataca con " + ataque + " de daño.");
+        logger.info(">>> " + vehiculoProfe.getNombre() + " se defiende con " + vehiculoProfe.getUltimaDefensa() + ".");
+        logger.info(">>> " + vehiculoProfe.getNombre() + " recibe " + vehiculoProfe.getUltimoDanioRecibido() + " de daño.");
+        logger.info(">>> PV restante de " + vehiculoProfe.getNombre() + ": " + barraVida(vehiculoProfe.getPuntosVida()));
+    
         if (vehiculoProfe.getPuntosVida() <= 0) {
-            logger.info(vehiculoProfe.getNombre() + " ha sido destruido - " + combatiente.getNombre()
-                    + " gana la batalla!");
+            logger.info(vehiculoProfe.getNombre() + " ha sido destruido. " + combatiente.getNombre() + " gana la batalla!");
         }
     }
+    
+    // private static void ataqueDeTanque(VehiculoGuerra vehiculoProfe, VehiculoGuerra combatiente) {
+    //     int ataqueTanque = vehiculoProfe.atacar();
+    //     int danioRecibidoNave = combatiente.defender(ataqueTanque);
+    //     logger.info(vehiculoProfe.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + combatiente.getNombre()
+    //             + " recibe " + danioRecibidoNave + " de danio.");
 
+    //     if (combatiente.getPuntosVida() <= 0) {
+    //         logger.info(combatiente.getNombre() + " ha sido destruido. - " + vehiculoProfe.getNombre()
+    //                 + " gana la batalla!");
+    //     }
+    // }
+
+    // VIK: He cambiado el método ataqueDeTanque para que imprima el resultado de la batalla.
     private static void ataqueDeTanque(VehiculoGuerra vehiculoProfe, VehiculoGuerra combatiente) {
-        int ataqueTanque = vehiculoProfe.atacar();
-        int danioRecibidoNave = combatiente.defender(ataqueTanque);
-        logger.info(vehiculoProfe.getNombre() + " ataca con " + ataqueTanque + " de danio. | " + combatiente.getNombre()
-                + " recibe " + danioRecibidoNave + " de danio.");
-
+        int ataque = vehiculoProfe.atacar();
+        combatiente.defender(ataque);
+    
+        logger.info(">>> " + vehiculoProfe.getNombre() + " ataca con " + ataque + " de daño.");
+        logger.info(">>> " + combatiente.getNombre() + " se defiende con " + combatiente.getUltimaDefensa() + ".");
+        logger.info(">>> " + combatiente.getNombre() + " recibe " + combatiente.getUltimoDanioRecibido() + " de daño.");
+        logger.info(">>> PV restante de " + combatiente.getNombre() + ": " + barraVida(combatiente.getPuntosVida()));
+    
         if (combatiente.getPuntosVida() <= 0) {
-            logger.info(combatiente.getNombre() + " ha sido destruido. - " + vehiculoProfe.getNombre()
-                    + " gana la batalla!");
+            logger.info(combatiente.getNombre() + " ha sido destruido." + vehiculoProfe.getNombre() + " gana la batalla!");
         }
-    }
+    }    
+    
 }
