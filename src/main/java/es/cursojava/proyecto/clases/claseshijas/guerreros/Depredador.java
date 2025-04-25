@@ -28,7 +28,7 @@ public class Depredador extends Guerrero {
 
     @Override
     public int apoyoAtaque() {
-
+        
         double factorFuerzaDepredador = Math.random() * 0.5;
         int sumaFuerzaDepredador = getFuerza();
 
