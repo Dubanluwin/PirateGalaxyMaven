@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 5.3//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Datos de conexión -->
+        <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@10.2.1.10:1522:XE</property>
+        <property name="hibernate.connection.username">lordvik</property>
+        <property name="hibernate.connection.password">password</property>
+
+        <!-- Dialecto de Hibernate para Oracle -->
+        <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+
+        <!-- Mostrar SQL por consola -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Opción de esquema -->
+        <!-- <property name="hibernate.default_schema">tu_usuario</property> -->
+
+        <!-- Generar las tablas automáticamente -->
+        <!-- <property name="hibernate.hbm2ddl.auto">create-drop</property> -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+        <property name="hibernate.hbm2ddl.auto">create</property>
+
+        <!-- none(Por defecto en Hibernate 5.2+) No realiza ninguna acción sobre el esquema.
+        validate:	Comprueba que las tablas y columnas existen y coinciden con las entidades. No crea ni actualiza.
+        update:	 Actualiza el esquema de la base de datos para que coincida con las entidades (añade tablas o columnas si faltan). ¡No elimina!
+        create:	 Borra y crea el esquema de nuevo cada vez que se inicia la app. Cuidado: se pierden los datos.
+        create-drop:	Igual que create, pero además elimina las tablas al cerrar la sesión o apagar la aplicación. Ideal para tests.
+        drop:	Elimina el esquema sin crearlo de nuevo (raro de usar).
+        create-only:	Crea el esquema al iniciar, pero no lo elimina al cerrar (Hibernate 5.5+). -->
+        <!-- Clase mapeada -->
+        <!-- <mapping class="es.cursojava.hibernate.dto.persona.Persona"/> -->
+
+    </session-factory>
+</hibernate-configuration>
